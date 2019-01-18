@@ -1,0 +1,5 @@
+Component: main
+Origin: backend.ai-agent
+Label: backend.ai-agent
+Architecture: i386
+Description: debian package repo

@@ -1,0 +1,102 @@
+Package: backend.ai-agent
+Version: 1.0.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Depends: python3 (>= 3.6~),
+    python3-botocore (>= 1.12.49),
+    python3-idna-ssl (>= 1.1.0),
+    python3-typing-extentions,
+    python3-wrapt,
+    python3-yarl (>= 1.1.0),
+    python3-dataclasses,
+    python3-aiohttp (>= 3.4.0),
+    python3-aiobotocore (>= 0.3.0),
+    python3-aiodocker (>= 0.14.0),
+    python3-aioredis (>= 1.0.0),
+    python3-aiotools (>= 0.8.0),
+    python3-async-timeout (>= 3.0),
+    python3-attr (>= 18.0),
+    python3-zmq (>= 17.1.0),
+    python3-uvloop(>= 0.11.0),
+    python3-wrapt (>= 1.10.10),
+    python3-trafaret (>= 1.0),
+    python3-coloredlogs (>= 5.2),
+    python3-snappy(>= 0.5.1), 
+    python3-setproctitle (>= 1.1.10), 
+    backend.ai-common(>= 18.12.0), 
+    python3-aiozmq, 
+    python3-psutil(>= 5.4.0), 
+    python3-requests, 
+    python3-requests-unixsocket 
+Priority: optional
+Section: devel
+Filename: pool/main/b/backend.ai-agent/backend.ai-agent_1.0.0_all.deb
+Size: 60612
+SHA256: 6dc75e5cc115db18817715cd5a6c8759d5ac4f23d3d92bed14e9bb5ad0cefb96
+SHA1: 690423f709663daaa4903c2f94b9c98368f4d8e7
+MD5sum: 9fcd2f7e09a5b1e9b15db91cdf4e6936
+Description: Backend.ai agent package
+
+Package: python3-aiobotocore
+Source: python-aiobotocore
+Version: 0.10.0
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Depends : python3-botocore (<<1.12.50), python3-botocore(>=1.12.49),python3-aiohttp (>=3.3.1), python3-wrapt(>=1.10.10)
+Priority: optional
+Section: python
+Filename: pool/main/p/python-aiobotocore/python3-aiobotocore_0.10.0_amd64.deb
+Size: 15580
+SHA256: 5995ed281bb771ddaf041e63e18bcb09e2e63a5bfda875f649cd325b6d5effde
+SHA1: 99bcc2b328722b23acbbce026cbf0a80dd1004ce
+MD5sum: 208fd9011f58965e43de820c14f1696c
+Description: aiobotocore
+
+Package: python3-aiodocker
+Source: python-aiodocker
+Version: 0.14.0
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-aiodocker/python3-aiodocker_0.14.0_amd64.deb
+Size: 15284
+SHA256: f656e39f193d32df19f5214b1bae221f13ef0c1f9e248c64e835d21c2447d85a
+SHA1: f87fc39cca3f2199069866eb475eee791e93a9bd
+MD5sum: 35444d893faa23e12c6bdfc466bca9df
+Description: aiodocker
+
+Package: python3-aiotools
+Source: python-aiotools
+Version: 0.8.0
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-aiotools/python3-aiotools_0.8.0_amd64.deb
+Size: 20324
+SHA256: f0228dd11aa7c6a56dac1233d6aad01e528c8f035c84d5d07188314d7577da22
+SHA1: 40bb7f21debb4106c274c796a8c3e2f11f92f18e
+MD5sum: c39fdaafdc453aa4af4be8202e6edf51
+Description: aiotools
+
+Package: python3-trafaret
+Source: python-trafaret
+Version: 1.1
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Depends: python3-pymongo (>= 2.4.1), python3-dateutil (>= 1.5)
+Priority: optional
+Section: python
+Filename: pool/main/p/python-trafaret/python3-trafaret_1.1_amd64.deb
+Size: 17936
+SHA256: e6d0e64b36ba2368496860fb961d9519407a1ce8ae6ad34610a54462312fe0f4
+SHA1: 5dd9cf5d6d14447356e04701c7058adec1906407
+MD5sum: 520060d8428e611e275adc80d38a57b0
+Description: trafaret
+
