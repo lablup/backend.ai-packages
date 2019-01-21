@@ -1,0 +1,231 @@
+Package: backend.ai-manager
+Version: 1.0.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Depends: python3 (>= 3.6~), python3-aiozmq (>= 0.7), python3-dateutil (>= 2.5), python3-coloredlogs (>= 5.2), python3-snappy(>= 0.5.1), python3-setproctitle (>= 1.1.10), backend.ai-common(>= 18.12.0)
+Priority: optional
+Section: devel
+Filename: pool/main/b/backend.ai-manager/backend.ai-manager_1.0.0_all.deb
+Size: 43368
+SHA256: 00305d123f02e074ea379747a775eb8d1756d7e7ecedfc6290fffc602c876786
+SHA1: 7c27aca6c71c4c3913a663ffb6b8fbd48147026e
+MD5sum: ff78fb4dcb6f7b9fb5a4f574c73115a3
+Description: Backend.ai manager package
+
+Package: python3-aiohttp-cors
+Source: aiohttp-cors
+Version: 0.7.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Brandon Weeks <bweeks@google.com>
+Installed-Size: 92
+Depends: python3-aiohttp, python3:any (>= 3.5~)
+Homepage: https://github.com/aio-libs/aiohttp-cors
+Priority: optional
+Section: python
+Filename: pool/main/a/aiohttp-cors/python3-aiohttp-cors_0.7.0-1_all.deb
+Size: 21496
+SHA256: 75dc66a052616601dc595ac481f0f687a3e9b63f6c39d15cbf91ee7943123b95
+SHA1: 794a11e43d32cca5f2c87dd89e87db21137b5c8e
+MD5sum: 7d33762ad58b9721ba4b21e639816df3
+Description: Cross Origin Resource Sharing (CORS) support for aiohttp
+ aiohttp_cors library implements Cross Origin Resource Sharing (CORS) support
+ for aiohttp asyncio-powered asynchronous HTTP server.
+
+Package: python3-aiopg
+Source: aiopg
+Version: 0.15.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 133
+Depends: python3-psycopg2 (>= 2.7.0), python3:any
+Recommends: python3-sqlalchemy
+Homepage: https://aiopg.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/a/aiopg/python3-aiopg_0.15.0-1_all.deb
+Size: 25236
+SHA256: 8a108b0ffb04a80c481fe7896870d6e6aa2072ad9660d3432fee226ed22799ad
+SHA1: 1a33e1a73a7e6a54c71a2efd130d6cff642bf70a
+MD5sum: 9570f19bf60aa85b485fa053faa5ccd5
+Description: PostgreSQL integration with asyncio
+ aiopg is a library for accessing a PostgreSQL_ database
+ from the asyncio (PEP-3156/tulip) framework. It wraps
+ asynchronous features of the Psycopg database driver.
+
+Package: python3-aioredis
+Source: aioredis
+Version: 1.2.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 262
+Depends: python3-async-timeout, python3-hiredis, python3:any (>= 3.5~)
+Homepage: http://aioredis.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/main/a/aioredis/python3-aioredis_1.2.0-1_all.deb
+Size: 45904
+SHA256: a5955b59e76ade41d460556cf4cd41702232dce7bf6e1cd902a932854cc7d3c5
+SHA1: 7a6d6e0f7b82cbc4933e4903a4e49b8f7ef50bc7
+MD5sum: 61f14f5e0e02bfe96a28cf81ad89b634
+Description: asyncio (PEP 3156) Redis support
+ The library is intended to provide simple and clear interface to Redis based
+ on asyncio.
+ .
+ Features:
+  * Connections pool
+  * Low-level & high-level API
+  * hiredis parser
+
+Package: python3-aniso8601
+Source: python-aniso8601
+Version: 3.0.2-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 86
+Depends: python3:any (>= 3.3.2-2~)
+Homepage: https://bitbucket.org/nielsenb/aniso8601
+Priority: optional
+Section: python
+Filename: pool/main/p/python-aniso8601/python3-aniso8601_3.0.2-1_all.deb
+Size: 18964
+SHA256: 04df7bf528bbb46316f155cde03eb0abb9beaef31931d54a0920630e4c2f7171
+SHA1: aabb786269889ea4bc09bd48087d2a87fa43db6a
+MD5sum: 91b6baeedc27fb7e025e8971092bc705
+Description: python3 library for parsing dates and time
+ Library for parsing the following:
+  - Parse a time, get a datetime.time
+  - Parse a date, get a datetime.date
+  - Parse a datetime, get a datetime.datetime
+  - Parse a duration, get a datetime.timedelta
+  - Parse an interval, get a tuple of dates or datetimes
+  - Parse a repeating interval, get a date or datetime generator
+ .
+ This package provides the python3 version.
+
+Package: python3-async-timeout
+Source: python-async-timeout
+Version: 3.0.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 29
+Depends: python3:any (>= 3.3.2-2~)
+Homepage: https://github.com/aio-libs/async_timeout/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-async-timeout/python3-async-timeout_3.0.0-1_all.deb
+Size: 5480
+SHA256: 6326e4da50ec1dfd75904cd60ecb6319dc2db05e296e402f5b7c578aa1af9b5a
+SHA1: cad004688abdb13aa906f49d4f57599cf57206b0
+MD5sum: 2935a274afe6ee02eea31c6e1ded8af5
+Description: timeout context manager for asyncio programs in Python
+ The context manager is useful in cases when you want to apply timeout
+ logic around block of code or in cases when asyncio.wait_for() is
+ not suitable. Also it's much faster than asyncio.wait_for()
+ because timeout doesn't create a new task.
+ .
+ Example:
+ .
+  with timeout(1.5):
+      yield from inner()
+
+Package: python3-attr
+Source: python-attrs
+Version: 18.2.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: python3:any
+Suggests: python-attr-doc
+Homepage: https://attrs.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-attrs/python3-attr_18.2.0-1_all.deb
+Size: 29628
+SHA256: f15c5156033b781cc75386d5b25c668fef09383819cc7b74f10f581f615aeebe
+SHA1: b2147ac8195381e13aafa379626c5db65cd4c09e
+MD5sum: c0853c18f2ce5775816c2c6010b92b02
+Description: Attributes without boilerplate (Python 3)
+ attrs is an MIT-licensed Python package with class decorators that ease the
+ chores of implementing the most common attribute-related object protocols.
+ .
+ You just specify the attributes to work with and attrs gives you:
+   - a nice human-readable __repr__,
+   - a complete set of comparison methods,
+   - an initializer,
+   - and much more
+ without writing dull boilerplate code again and again.
+ .
+ This package contains attrs packged for Python 3.
+
+Package: python3-idna-ssl
+Version: 1.1.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-idna-ssl/python3-idna-ssl_1.1.0_all.deb
+Size: 2992
+SHA256: 21ffb9b9a9002358750b411b6c738d35ec3e8148dd1debe9a2f91447c55a13ab
+SHA1: fd8f8e0447e60109866be355174d32788ab46b8d
+MD5sum: 696ba633fa7297400b8578a8c269956b
+Description: idna-ssl 
+ :info: Patch ssl.match_hostname for Unicode(idna) domains support
+ .. image:: https://travis-ci.com/aio-libs/idna-ssl.svg?branch=master
+     :target: https://travis-ci.com/aio-libs/idna-ssl
+ .. image:: https://img.shields.io/pypi/v/idna_ssl.svg
+     :target: https://pypi.python.org/pypi/idna_ssl
+ .. image:: https://codecov.io/gh/aio-libs/idna-ssl/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/aio-libs/idna-ssl
+ Installation
+ ------------
+ .. code-block:: shell
+     pip install idna-ssl
+ Usage
+ -----
+ .. code-block:: python
+     from idna_ssl import patch_match_hostname  # noqa isort:skip
+     patch_match_hostname()  # noqa isort:skip
+     import asyncio
+     import aiohttp
+     URL = 'https://цфоут.мвд.рф/news/item/8065038/'
+     async def main():
+         async with aiohttp.ClientSession() as session:
+             async with session.get(URL) as response:
+                 print(response)
+     loop = asyncio.get_event_loop()
+     loop.run_until_complete(main())
+ Motivation
+ ----------
+ * Here is 100% backward capability
+ * Related aiohttp `issue <https://github.com/aio-libs/aiohttp/issues/949>`_
+ * Related Python `bug <https://bugs.python.org/issue31872>`_
+ * Related Python `pull request <https://github.com/python/cpython/pull/3462>`_
+ * It is fixed (by January 27 2018) in upcoming Python 3.7, but `IDNA2008 <https://tools.ietf.org/html/rfc5895>`_ is still broken
+ Thanks
+ ------
+ The library was donated by `Ocean S.A. <https://ocean.io/>`_
+ Thanks to the company for contribution.
+
+Package: python3-typing-extensions
+Source: python3-typing-extensions
+Version: 3.6.6
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-typing-extensions/python3-typing-extensions_3.6.6_all.deb
+Size: 17696
+SHA256: d7a52c4370b857fa2f9e109fe28f980d91ad56d0d8cb78333860125c043fe37e
+SHA1: d7f67fc901de624166e79b441497e34bb211d74e
+MD5sum: 5c9399d9c6742fe8e7c76de5c4fcf7a6
+Description:  python3-typing-extensions
+

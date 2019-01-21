@@ -1,0 +1,5 @@
+Component: main
+Origin: backend.ai-manager
+Label: backend.ai-manager
+Architecture: i386
+Description: debian package repo
