@@ -10,7 +10,7 @@ python3-aioredis Priority optional
 python3-aiotools Priority optional
 python3-async-timeout Priority optional
 python3-attr Priority optional
-python3-typing-extentions Priority optional
+python3-typing-extensions Priority optional
 python3-dataclasses Priority optional
 python3-trafaret Priority optional
 python3-uvloop Priority optional

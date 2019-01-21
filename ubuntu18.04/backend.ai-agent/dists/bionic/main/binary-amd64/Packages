@@ -304,6 +304,21 @@ SHA1: 5dd9cf5d6d14447356e04701c7058adec1906407
 MD5sum: 520060d8428e611e275adc80d38a57b0
 Description: trafaret
 
+Package: python3-typing-extensions
+Source: python3-typing-extensions
+Version: 3.6.6
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-typing-extensions/python3-typing-extensions_3.6.6_all.deb
+Size: 17696
+SHA256: d7a52c4370b857fa2f9e109fe28f980d91ad56d0d8cb78333860125c043fe37e
+SHA1: d7f67fc901de624166e79b441497e34bb211d74e
+MD5sum: 5c9399d9c6742fe8e7c76de5c4fcf7a6
+Description:  python3-typing-extensions
+
 Package: python3-uvloop
 Source: uvloop
 Version: 0.11.2+ds1-1
