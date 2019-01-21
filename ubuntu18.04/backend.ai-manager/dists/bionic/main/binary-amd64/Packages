@@ -28,6 +28,21 @@ SHA1: be1264ffc0455cf2184901cdb9c5ef99e5c32e86
 MD5sum: 24f8a563db0d32c4da682e18432a4056
 Description: PyYAML
 
+Package: python3-Rx
+Source: python-Rx
+Version: 1.6.1
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-Rx/python3-Rx_1.6.1_amd64.deb
+Size: 62520
+SHA256: f788e51f9390b895b3c8d825cc7f0f89c19935272fb2c37f2a2fcb07b656143a
+SHA1: d19d7cb7fadb7ab349a175f720dcf80e49b44d8a
+MD5sum: 817731ca2afbf6ddc18a74ba368a3496
+Description: Rx
+
 Package: python3-SQLAlchemy
 Source: python-SQLAlchemy
 Version: 1.1.14

@@ -1,13 +1,13 @@
 Origin: backend.ai-manager
 Label: backend.ai-manager
 Codename: bionic
-Date: Mon, 21 Jan 2019 07:07:21 UTC
+Date: Mon, 21 Jan 2019 07:09:50 UTC
 Architectures: amd64 i386
 Components: main
 Description: debian package repo
 MD5Sum:
- 0ee5e427b90ef461bf843f5df04a3b2f 21074 main/binary-amd64/Packages
- c1332858630a37e7f68d28079d5028a1 6991 main/binary-amd64/Packages.gz
+ 7978a0505a327fb3f6c6b1e5ebd4cde8 21529 main/binary-amd64/Packages
+ f051bf6f528feaa71081dff63bbdd950 7117 main/binary-amd64/Packages.gz
  249efb6e3a905e0e8b57401183d9a1bc 122 main/binary-amd64/Release
  3fb54eb1943f8f979c15635011478438 8891 main/binary-i386/Packages
  045357bf372ad9b00178fe158a0de144 3418 main/binary-i386/Packages.gz
@@ -16,8 +16,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  73e3c1835a3a50ed34ff2e5721e55e5d 123 main/source/Release
 SHA1:
- adb1897b49878f0087a11c291ac8aa5d87394fc5 21074 main/binary-amd64/Packages
- cd3237f8f63ce41a681d40d5f44b27b61a496321 6991 main/binary-amd64/Packages.gz
+ 86540955fccaee00fa452b462b4a0549c32d9fa8 21529 main/binary-amd64/Packages
+ 4c5bdeb61a5824bea15fbbe83e24b7aba3c64712 7117 main/binary-amd64/Packages.gz
  4e669ac1649f05a730f3247a10253363209262da 122 main/binary-amd64/Release
  89ff7ad14bb5d5d36492c6de8c64273cf220e6db 8891 main/binary-i386/Packages
  a0b4f39389af3c5e9a6e7d13223ee510156ad941 3418 main/binary-i386/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  0b89b1cc0833e8e249f6a2955aada5e1b24800e3 123 main/source/Release
 SHA256:
- ded4af4756149b1d9b9893386820d418015421eab5421a732508261d2cffec7a 21074 main/binary-amd64/Packages
- b4cdd730f3e849deca913a0456bf0219daae828514ad9460d60e36444c93f512 6991 main/binary-amd64/Packages.gz
+ 39d401f8d998cf9714c98961ea9944882fb209ea19c0ad2fe791723956a42925 21529 main/binary-amd64/Packages
+ ad9a685b2b4fad5c81f51f8a9a5f13c761ba310e4c16a51a33913c60ba3d50ae 7117 main/binary-amd64/Packages.gz
  a0876b2aa25e2da3fedb79f60fffbc3669340123fb1e9a91e78f5a39ad83c933 122 main/binary-amd64/Release
  1be7af6e79e55f68c31df8b487c9bec1fd47618d4b8884271a02ee4883771b62 8891 main/binary-i386/Packages
  b04a5541198911aa0bd10ddbeefbc2ba0f73b07e01adabcab06e940a073d8773 3418 main/binary-i386/Packages.gz
