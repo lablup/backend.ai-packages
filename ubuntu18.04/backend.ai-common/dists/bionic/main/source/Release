@@ -1,0 +1,5 @@
+Component: main
+Origin: backend.ai-common
+Label: backend.ai-common
+Architecture: source
+Description: debian package repo

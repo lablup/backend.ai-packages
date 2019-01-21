@@ -1,0 +1,297 @@
+Package: backend.ai-common
+Version: 18.12.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Depends: python3 (>= 3.6~), python3-zmq (>= 17.0), python3-etcd3 (>= 0.8.0), python3-aiodns,
+    python3-aiohttp (>= 3.4.0), python3-async-timeout (>= 3.0), python3-setproctitle (>= 1.1.10), python3-attr (>= 18.0)
+Priority: optional
+Section: devel
+Filename: pool/main/b/backend.ai-common/backend.ai-common_18.12.0_all.deb
+Size: 16036
+SHA256: e8d0c25c7264cad505875a3faf304a52fd0144a9773c9370c9f03ff12b1a7e96
+SHA1: 21368aa214aeee97912695fb860c079add62837d
+MD5sum: 7aac43ca2dbf7e26dc6a9ebc24250496
+Description: Backend.ai common package
+
+Package: python3-aiohttp
+Source: python-aiohttp
+Version: 3.5.1-1
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Installed-Size: 1285
+Depends: python3-yarl (>= 1.0), python3 (<< 3.7), python3 (>= 3.6~), python3-async-timeout, python3-attr, python3-chardet, python3-multidict, python3:any (>= 3.5~), libc6 (>= 2.14)
+Recommends: libjs-jquery
+Homepage: https://aiohttp.readthedocs.org
+Priority: optional
+Section: python
+Filename: pool/main/p/python-aiohttp/python3-aiohttp_3.5.1-1_amd64.deb
+Size: 337956
+SHA256: 35d02696900f5ddac60ef5fd0d340a5c89ab186c90dd96e37bc766af4d00621b
+SHA1: 4e933ecdf2f6d7bb3d2f53bc02cf003034f38eb0
+MD5sum: b267ee61a14ffb6f16d823fab4598b69
+Description: http client/server for asyncio
+ HTTP Client for asyncio (PEP 3156 - Asynchronous I/O Support).
+ .
+ Features:
+  * supports both client and server side of HTTP protocol,
+  * supports both client and server Web-Sockets out-of-the-box,
+  * web-server has middlewares and pluggable routing.
+
+Package: python3-async-timeout
+Source: python-async-timeout
+Version: 3.0.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 29
+Depends: python3:any (>= 3.3.2-2~)
+Homepage: https://github.com/aio-libs/async_timeout/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-async-timeout/python3-async-timeout_3.0.0-1_all.deb
+Size: 5480
+SHA256: 6326e4da50ec1dfd75904cd60ecb6319dc2db05e296e402f5b7c578aa1af9b5a
+SHA1: cad004688abdb13aa906f49d4f57599cf57206b0
+MD5sum: 2935a274afe6ee02eea31c6e1ded8af5
+Description: timeout context manager for asyncio programs in Python
+ The context manager is useful in cases when you want to apply timeout
+ logic around block of code or in cases when asyncio.wait_for() is
+ not suitable. Also it's much faster than asyncio.wait_for()
+ because timeout doesn't create a new task.
+ .
+ Example:
+ .
+  with timeout(1.5):
+      yield from inner()
+
+Package: python3-attr
+Source: python-attrs
+Version: 18.2.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: python3:any
+Suggests: python-attr-doc
+Homepage: https://attrs.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-attrs/python3-attr_18.2.0-1_all.deb
+Size: 29628
+SHA256: f15c5156033b781cc75386d5b25c668fef09383819cc7b74f10f581f615aeebe
+SHA1: b2147ac8195381e13aafa379626c5db65cd4c09e
+MD5sum: c0853c18f2ce5775816c2c6010b92b02
+Description: Attributes without boilerplate (Python 3)
+ attrs is an MIT-licensed Python package with class decorators that ease the
+ chores of implementing the most common attribute-related object protocols.
+ .
+ You just specify the attributes to work with and attrs gives you:
+   - a nice human-readable __repr__,
+   - a complete set of comparison methods,
+   - an initializer,
+   - and much more
+ without writing dull boilerplate code again and again.
+ .
+ This package contains attrs packged for Python 3.
+
+Package: python3-etcd3
+Source: python3-etcd3
+Version: 0.8.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Depends: python3-grpcio (>=1.2.0), python3-tenacity (>=4.10.0)
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-etcd3/python3-etcd3_0.8.0_all.deb
+Size: 56960
+SHA256: 63e48b583d29350d6cb952c581cab23e99fab46844e29f333f563687b0853eac
+SHA1: 9f9ed4b88efbb41a33d6d0c4c8d0ec78197dc858
+MD5sum: ec8af7cd4cc33e85dc5bfeecd6c68804
+Description: Python client for the etcd3 API
+
+Package: python3-grpcio
+Source: python-grpcio
+Version: 1.15.0-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 4330
+Depends: python3 (<< 3.8), python3 (>= 3.6~), python3-six (>= 1.5.2), python3:any, libc-ares2 (>= 1.11.0~rc1), libc6 (>= 2.12), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Provides: python3.6-grpcio, python3.7-grpcio
+Homepage: https://grpc.io/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-grpcio/python3-grpcio_1.15.0-1_amd64.deb
+Size: 954844
+SHA256: 8bbc02029949ec4fb25387520228ee54275d619341ebb10abd03fae6ed94d620
+SHA1: f61339a98aea2fdd1e90ffa207bd593c15ace713
+MD5sum: d54f9a225fc6e1ed028dbc6a56b9392b
+Description: High-performance RPC framework (Python 3 libraries)
+ gRPC is a modern open source high performance RPC framework. It can
+ efficiently connect services in and across data centers with pluggable support
+ for load balancing, tracing, health checkin and authentication.
+ .
+ It is also applicable in last mile of distributed computing to connect
+ devices, mobile applications and browsers to backend services.
+ .
+ This package installs the libraries for Python 3.
+
+Package: python3-idna-ssl
+Version: 1.1.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-idna-ssl/python3-idna-ssl_1.1.0_all.deb
+Size: 2992
+SHA256: 21ffb9b9a9002358750b411b6c738d35ec3e8148dd1debe9a2f91447c55a13ab
+SHA1: fd8f8e0447e60109866be355174d32788ab46b8d
+MD5sum: 696ba633fa7297400b8578a8c269956b
+Description: idna-ssl 
+ :info: Patch ssl.match_hostname for Unicode(idna) domains support
+ .. image:: https://travis-ci.com/aio-libs/idna-ssl.svg?branch=master
+     :target: https://travis-ci.com/aio-libs/idna-ssl
+ .. image:: https://img.shields.io/pypi/v/idna_ssl.svg
+     :target: https://pypi.python.org/pypi/idna_ssl
+ .. image:: https://codecov.io/gh/aio-libs/idna-ssl/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/aio-libs/idna-ssl
+ Installation
+ ------------
+ .. code-block:: shell
+     pip install idna-ssl
+ Usage
+ -----
+ .. code-block:: python
+     from idna_ssl import patch_match_hostname  # noqa isort:skip
+     patch_match_hostname()  # noqa isort:skip
+     import asyncio
+     import aiohttp
+     URL = 'https://цфоут.мвд.рф/news/item/8065038/'
+     async def main():
+         async with aiohttp.ClientSession() as session:
+             async with session.get(URL) as response:
+                 print(response)
+     loop = asyncio.get_event_loop()
+     loop.run_until_complete(main())
+ Motivation
+ ----------
+ * Here is 100% backward capability
+ * Related aiohttp `issue <https://github.com/aio-libs/aiohttp/issues/949>`_
+ * Related Python `bug <https://bugs.python.org/issue31872>`_
+ * Related Python `pull request <https://github.com/python/cpython/pull/3462>`_
+ * It is fixed (by January 27 2018) in upcoming Python 3.7, but `IDNA2008 <https://tools.ietf.org/html/rfc5895>`_ is still broken
+ Thanks
+ ------
+ The library was donated by `Ocean S.A. <https://ocean.io/>`_
+ Thanks to the company for contribution.
+
+Package: python3-json-logger
+Source: python-json-logger
+Version: 0.1.10
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-json-logger/python3-json-logger_0.1.10_all.deb
+Size: 3740
+SHA256: 05bd84a1e131e75829721df8a9d327075a79f17575f9ab49d3e8b53600eaf20a
+SHA1: 0b0a4d9e89b19ce49a3f148a688b0cb0a51b67a6
+MD5sum: 383f09f9b7d0452f7e92c4aa506978be
+Description: A python library adding a json log formatter
+
+Package: python3-msgpack
+Source: python-msgpack
+Version: 0.6.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-msgpack/python3-msgpack_0.6.0_all.deb
+Size: 83904
+SHA256: f191da846a36778a943ed029fe9c686bb4cd1f821321531605b7af59449bcfd8
+SHA1: 86881c6dde47c932a07cc1890d8c9d9c2f906c01
+MD5sum: 132745b8ef2e35a881271a6ea953b41d
+Description: MessagePack (de)serializer.
+
+Package: python3-tenacity
+Source: python-tenacity
+Version: 4.12.0-2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 98
+Depends: python3-monotonic, python3-pbr, python3-six (>= 1.9.0), python3:any
+Suggests: python-tenacity-doc
+Homepage: https://github.com/jd/tenacity
+Priority: optional
+Section: python
+Filename: pool/main/p/python-tenacity/python3-tenacity_4.12.0-2_all.deb
+Size: 13956
+SHA256: 26ebf4d91d16ec7818d951110ff3690ecff66f8bf003a5fe152abaa139b0ca38
+SHA1: 5270eac1efccf9c404d6a5321a48a64ac46273f7
+MD5sum: b6f13b28a74b2631c22c113ac63af31a
+Description: retry code until it succeeeds - Python 3.x
+ Tenacity is a general-purpose retrying library to simplify the task of adding
+ retry behavior to just about anything. It originates from a fork of Retrying.
+ .
+ Features:
+  * Generic Decorator API
+  * Specify stop condition (i.e. limit by number of attempts)
+  * Specify wait condition (i.e. exponential backoff sleeping between attempts)
+  * Customize retrying on Exceptions
+  * Customize retrying on expected returned result
+ .
+ This package contains the Python 3.x module.
+
+Package: python3-typing-extensions
+Source: python3-typing-extensions
+Version: 3.6.6
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-typing-extensions/python3-typing-extensions_3.6.6_all.deb
+Size: 17696
+SHA256: d7a52c4370b857fa2f9e109fe28f980d91ad56d0d8cb78333860125c043fe37e
+SHA1: d7f67fc901de624166e79b441497e34bb211d74e
+MD5sum: 5c9399d9c6742fe8e7c76de5c4fcf7a6
+Description:  python3-typing-extensions
+
+Package: python3-zmq
+Source: pyzmq
+Version: 17.1.0-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 2065
+Depends: python3 (<< 3.8), python3 (>= 3.6~), python3:any, libc6 (>= 2.14), libzmq5 (>= 4.2.0)
+Homepage: http://www.zeromq.org/bindings:python
+Priority: optional
+Section: python
+Filename: pool/main/p/pyzmq/python3-zmq_17.1.0-1_amd64.deb
+Size: 318836
+SHA256: 78a5b74099d986b568f4b64011f02989bf8da30db1d12ec81b1be99604e95c11
+SHA1: ad85917a42bd8ec6186ec3e3731cff06395878af
+MD5sum: ed4a49f49d102fc1748ed7dd5fbc1f9c
+Description: Python3 bindings for 0MQ library
+ Python bindings for 0MQ. 0MQ is a small, fast, and free
+ software library that gives you message-passing concurrency
+ for applications in most common languages.
+ .
+ The 0MQ lightweight messaging kernel is a library which
+ extends the standard socket interfaces with features
+ traditionally provided by specialised messaging middleware
+ products. 0MQ sockets provide an abstraction of asynchronous
+ message queues, multiple messaging patterns, message
+ filtering (subscriptions), seamless access to multiple
+ transport protocols and more.
+ .
+ This package contains the extension built for the Python3 interpreter.
+

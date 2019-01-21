@@ -1,0 +1,12 @@
+python3-grpcio Priority optional
+python3-idna-ssl Priority optional
+python3-tenacity Priority optional
+python3-typing-extensions Priority optional
+python3-aiohttp Priority optional
+python3-async-timeout Priority optional
+python3-attr Priority optional
+python3-etcd3 Priority optional
+python3-json-logger Priority optional
+python3-msgpack Priority optional
+python3-zmq Priority optional
+backend.ai-common Priority optional

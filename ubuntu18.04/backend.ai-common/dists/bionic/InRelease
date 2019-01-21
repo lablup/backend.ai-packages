@@ -1,0 +1,54 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: backend.ai-common
+Label: backend.ai-common
+Codename: bionic
+Date: Mon, 21 Jan 2019 06:48:22 UTC
+Architectures: amd64 i386
+Components: main
+Description: debian package repo
+MD5Sum:
+ f56a78e766c7b8be56d04a642014e838 11827 main/binary-amd64/Packages
+ b927c26554e4b32bb1f12034449c6290 4506 main/binary-amd64/Packages.gz
+ 335768b3669ef92019f43cd6e041aece 120 main/binary-amd64/Release
+ 4d770d1e813e905916818fb9136d2286 8179 main/binary-i386/Packages
+ fdaa0e69e239b6c3c201724e7605512c 3238 main/binary-i386/Packages.gz
+ 277a5c70541b3578adf966dd6787a5c0 119 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 03a2470f510f80c28050b81a3af31c0e 121 main/source/Release
+SHA1:
+ 8ada48ff19eb3f6f8824b038540902d156544221 11827 main/binary-amd64/Packages
+ 9c66813b6a067d2125f3f65fac6b48515743954c 4506 main/binary-amd64/Packages.gz
+ bdd82cf56001926770136a5790d0f96230b8bebf 120 main/binary-amd64/Release
+ 893c4fdfdbd3367a80acf9cb612b2f0446b8b697 8179 main/binary-i386/Packages
+ dfae45d33468c127cfde93c8eefaf43b908fe560 3238 main/binary-i386/Packages.gz
+ 148a46bcc8de53be69ebf88495f3f9977c351221 119 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 03f351750d3c7b37fba3649730893b99a5fec267 121 main/source/Release
+SHA256:
+ 008b6d250561843890838f8c6510bcf8b58db714a8673d8afe37d65ebb7a6f8b 11827 main/binary-amd64/Packages
+ f69ab4ffbc0fb2b66d0616d7f88929c22c55ab32945696f446b70610d9123292 4506 main/binary-amd64/Packages.gz
+ f52595c400dadda65cae125c7f6d0355cefab83dd3de1fb7171ea70a5c6f2c21 120 main/binary-amd64/Release
+ c39cd0cdc9838f19653a7d44c5fa12da7a83c72e0e9280b36bada3af666ff969 8179 main/binary-i386/Packages
+ 9b4d610f0a89760fb485513c272119c1c36ed788c8c1e1231bba72bb18715db5 3238 main/binary-i386/Packages.gz
+ 9619829c33b2263381afc4ff604bfa86d5a8242ebde51f9fe1ec946b4b069360 119 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ ea8ed0ed2a0d9bdc50bb9db1f5404548cfdc780bcfbb55313919f34d2753985a 121 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEdTEFHWmR5UTJHFqv+Ll6OgOb3FwFAlxFazcACgkQ+Ll6OgOb
+3FwqtQv+IORjr2vKAxkTitJsqu3bcuQ8FRvRnxX9m5tu2uGAvbFsNyWzIBZrDpU1
+wnLHamB3h5ue3oauumXbMBKiNhKLO2KNHB+i01JHSn98eIneblFWtffbuJpInV49
+iaXmwTz3FUdTgBJRNav2VLATbEyATApeJcfhPRd5Fr+6RxlA0JHvfyrZtf8HELmh
+hHkpAkvzCt07gk9qGzEmUqVk1j4BrPUswaRseBBb01zE1jvBWwVFib3g+QUsNCog
+5qEGAlovcuZJOptEuvPzbVEhYReKaW2ZPpxd/mxKQrlL1vVNzTyXU3Mb4fir9zkj
+AL1mzxzI64y0hs0Z7NwUZD+7DP3FbHu3mU5Y7dajs0IzV6FigGAqqC+AK2KJEZo7
+mhbgHCBvyg5H+1hdB1JYJTlQF1z4H4FnqJyPcfEVI1+o+XGpjiUOYB/eqXpYl2yd
+im3H93C9Lt56bl57G/FNjsCmrDHt9rJJFuUVKoc9Co84Regnt4d9tFaDZobCsqx1
+zVg82FNo
+=SI6d
+-----END PGP SIGNATURE-----
