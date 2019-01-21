@@ -1,0 +1,279 @@
+Package: backend.ai-client
+Version: 1.0.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Depends: python3 (>= 3.6~), python3-dateutil (>= 2.5), python3-humanize (>= 0.5.1), python3-tabulate (>= 0.7.7),
+    python3-aiohttp (>= 3.4.0), python3-async-timeout (>= 3.0), python3-tqdm (>= 4.21), python3-click (>= 7.0), python3-attr (>= 18.0)
+Priority: optional
+Section: devel
+Filename: pool/main/b/backend.ai-client/backend.ai-client_1.0.0_all.deb
+Size: 75244
+SHA256: 2defae7ed9bdfc9fdaeaf148fbe54d8e179c7688f7bebbd918f9080b92696578
+SHA1: 2b3b3f99458a36bee270e2f921af948b3028a126
+MD5sum: 826cc00d7749e3db6ab128732a66bb40
+Description: Backend.ai client package
+
+Package: python3-aiohttp
+Source: python-aiohttp
+Version: 3.5.1-1
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Installed-Size: 1285
+Depends: python3-yarl (>= 1.0), python3 (<< 3.7), python3 (>= 3.6~), python3-async-timeout, python3-attr, python3-chardet, python3-multidict, python3:any (>= 3.5~), libc6 (>= 2.14)
+Recommends: libjs-jquery
+Homepage: https://aiohttp.readthedocs.org
+Priority: optional
+Section: python
+Filename: pool/main/p/python-aiohttp/python3-aiohttp_3.5.1-1_amd64.deb
+Size: 337956
+SHA256: 35d02696900f5ddac60ef5fd0d340a5c89ab186c90dd96e37bc766af4d00621b
+SHA1: 4e933ecdf2f6d7bb3d2f53bc02cf003034f38eb0
+MD5sum: b267ee61a14ffb6f16d823fab4598b69
+Description: http client/server for asyncio
+ HTTP Client for asyncio (PEP 3156 - Asynchronous I/O Support).
+ .
+ Features:
+  * supports both client and server side of HTTP protocol,
+  * supports both client and server Web-Sockets out-of-the-box,
+  * web-server has middlewares and pluggable routing.
+
+Package: python3-async-timeout
+Source: python-async-timeout
+Version: 3.0.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 29
+Depends: python3:any (>= 3.3.2-2~)
+Homepage: https://github.com/aio-libs/async_timeout/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-async-timeout/python3-async-timeout_3.0.0-1_all.deb
+Size: 5480
+SHA256: 6326e4da50ec1dfd75904cd60ecb6319dc2db05e296e402f5b7c578aa1af9b5a
+SHA1: cad004688abdb13aa906f49d4f57599cf57206b0
+MD5sum: 2935a274afe6ee02eea31c6e1ded8af5
+Description: timeout context manager for asyncio programs in Python
+ The context manager is useful in cases when you want to apply timeout
+ logic around block of code or in cases when asyncio.wait_for() is
+ not suitable. Also it's much faster than asyncio.wait_for()
+ because timeout doesn't create a new task.
+ .
+ Example:
+ .
+  with timeout(1.5):
+      yield from inner()
+
+Package: python3-attr
+Source: python-attrs
+Version: 18.2.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: python3:any
+Suggests: python-attr-doc
+Homepage: https://attrs.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-attrs/python3-attr_18.2.0-1_all.deb
+Size: 29628
+SHA256: f15c5156033b781cc75386d5b25c668fef09383819cc7b74f10f581f615aeebe
+SHA1: b2147ac8195381e13aafa379626c5db65cd4c09e
+MD5sum: c0853c18f2ce5775816c2c6010b92b02
+Description: Attributes without boilerplate (Python 3)
+ attrs is an MIT-licensed Python package with class decorators that ease the
+ chores of implementing the most common attribute-related object protocols.
+ .
+ You just specify the attributes to work with and attrs gives you:
+   - a nice human-readable __repr__,
+   - a complete set of comparison methods,
+   - an initializer,
+   - and much more
+ without writing dull boilerplate code again and again.
+ .
+ This package contains attrs packged for Python 3.
+
+Package: python3-click
+Source: python-click
+Version: 7.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Depends: python3:any (>= 3.3.2-2~), python3-colorama
+Homepage: https://salsa.debian.org/debian/python-click.git
+Priority: optional
+Section: python
+Filename: pool/main/p/python-click/python3-click_7.0_all.deb
+Size: 103348
+SHA256: 8980ff155128352e2e165dedfb537e720d265a21b9d8e5d619c1df79c6ceb25b
+SHA1: 00c9e2d2e10dc92e26f6a0408f7c27e05511ff1e
+MD5sum: 199a8ba2563ca7ebc530a248886ff4c3
+Description: Simple wrapper around optparse for powerful command line utilities - Python 3.x
+ Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary.  It's the "Command
+ Line Interface Creation Kit".  It's highly configurable but comes with
+ sensible defaults out of the box.
+ .
+ It aims to make the process of writing command line tools quick and fun
+ while also preventing any frustration caused by the inability to implement
+ an intended CLI API.
+ .
+ This is the Python 3 compatible package.
+
+Package: python3-idna-ssl
+Version: 1.1.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-idna-ssl/python3-idna-ssl_1.1.0_all.deb
+Size: 2992
+SHA256: 21ffb9b9a9002358750b411b6c738d35ec3e8148dd1debe9a2f91447c55a13ab
+SHA1: fd8f8e0447e60109866be355174d32788ab46b8d
+MD5sum: 696ba633fa7297400b8578a8c269956b
+Description: idna-ssl 
+ :info: Patch ssl.match_hostname for Unicode(idna) domains support
+ .. image:: https://travis-ci.com/aio-libs/idna-ssl.svg?branch=master
+     :target: https://travis-ci.com/aio-libs/idna-ssl
+ .. image:: https://img.shields.io/pypi/v/idna_ssl.svg
+     :target: https://pypi.python.org/pypi/idna_ssl
+ .. image:: https://codecov.io/gh/aio-libs/idna-ssl/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/aio-libs/idna-ssl
+ Installation
+ ------------
+ .. code-block:: shell
+     pip install idna-ssl
+ Usage
+ -----
+ .. code-block:: python
+     from idna_ssl import patch_match_hostname  # noqa isort:skip
+     patch_match_hostname()  # noqa isort:skip
+     import asyncio
+     import aiohttp
+     URL = 'https://цфоут.мвд.рф/news/item/8065038/'
+     async def main():
+         async with aiohttp.ClientSession() as session:
+             async with session.get(URL) as response:
+                 print(response)
+     loop = asyncio.get_event_loop()
+     loop.run_until_complete(main())
+ Motivation
+ ----------
+ * Here is 100% backward capability
+ * Related aiohttp `issue <https://github.com/aio-libs/aiohttp/issues/949>`_
+ * Related Python `bug <https://bugs.python.org/issue31872>`_
+ * Related Python `pull request <https://github.com/python/cpython/pull/3462>`_
+ * It is fixed (by January 27 2018) in upcoming Python 3.7, but `IDNA2008 <https://tools.ietf.org/html/rfc5895>`_ is still broken
+ Thanks
+ ------
+ The library was donated by `Ocean S.A. <https://ocean.io/>`_
+ Thanks to the company for contribution.
+
+Package: python3-tqdm
+Source: tqdm
+Version: 4.23.4-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Sandro Tosi <morph@debian.org>
+Installed-Size: 236
+Depends: python3:any (>= 3.3.2-2~)
+Homepage: https://github.com/tqdm/tqdm
+Priority: optional
+Section: python
+Filename: pool/main/t/tqdm/python3-tqdm_4.23.4-1_all.deb
+Size: 63412
+SHA256: 686892593e47c7725cdd7067338da19b1e439bc9db0741f3b91745246d60ce30
+SHA1: 8c86abd0396fdda37fd85f284295ef636dae1dd8
+MD5sum: d96dc26d8f2c9325a10684260df97d6f
+Description: fast, extensible progress bar for Python 3 and CLI tool
+ tqdm (read taqadum, تقدّم) means “progress” in Arabic.  tqdm instantly makes
+ your loops show a smart progress meter, just by wrapping any iterable with
+ "tqdm(iterable)".
+ .
+ This package contains the Python 3 version of tqdm and its command-line tool.
+
+Package: python3-typing-extensions
+Source: python3-typing-extensions
+Version: 3.6.6
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-typing-extensions/python3-typing-extensions_3.6.6_all.deb
+Size: 17696
+SHA256: d7a52c4370b857fa2f9e109fe28f980d91ad56d0d8cb78333860125c043fe37e
+SHA1: d7f67fc901de624166e79b441497e34bb211d74e
+MD5sum: 5c9399d9c6742fe8e7c76de5c4fcf7a6
+Description:  python3-typing-extensions
+
+Package: python3-yarl
+Source: yarl
+Version: 1.2.4-1build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 258
+Depends: python3 (<< 3.8), python3 (>= 3.6~), python3-idna, python3-multidict (>= 4.0.0), python3:any, libc6 (>= 2.14)
+Homepage: https://github.com/aio-libs/yarl/
+Priority: optional
+Section: python
+Filename: pool/main/y/yarl/python3-yarl_1.2.4-1build1_amd64.deb
+Size: 57168
+SHA256: 871867c597a57fc40d4b80f9b96f82470fade1e14ba05eaca51e7e3f9a53e083
+SHA1: 345ec284c262de41b3948ca3d3556d45758760be
+MD5sum: 956677b886eaa8bc048594accbc9b697
+Description: yet another URL library for Python
+ URL is constructed from `str`:
+ .
+  >>> from yarl import URL
+  >>> url = URL('https://www.python.org/~guido?arg=1#frag')
+  >>> url
+  URL('https://www.python.org/~guido?arg=1#frag')
+ .
+ All URL parts: scheme, user, passsword, host, port, path, query and fragment
+ are accessible by properties:
+ .
+  >>> url.scheme
+  'https'
+  >>> url.host
+  'www.python.org'
+  >>> url.path
+  '/~guido'
+  >>> url.query_string
+  'arg=1'
+  >>> url.query
+  <MultiDictProxy('arg': '1')>
+  >>> url.fragment
+  'frag'
+ .
+ All URL manipulations produces a new URL object:
+ .
+  >>> url.parent / 'downloads/source'
+  URL('https://www.python.org/downloads/source')
+ .
+ Strings passed to constructor and modification methods are automatically
+ encoded giving canonical representation as result::
+ .
+  >>> url = URL('https://www.python.org/Ð¿ÑƒÑ‚ÑŒ')
+  >>> url
+  URL('https://www.python.org/%D0%BF%D1%83%D1%82%D1%8C')
+ .
+ Regular properties are percent-decoded, use `raw_` versions for getting
+ encoded strings:
+ .
+  >>> url.path
+  '/Ð¿ÑƒÑ‚ÑŒ'
+ .
+  >>> url.raw_path
+  '/%D0%BF%D1%83%D1%82%D1%8C'
+ .
+ Human readable representation of URL is available as `.human_repr()`:
+ .
+  >>> url.human_repr()
+  'https://www.python.org/Ð¿ÑƒÑ‚ÑŒ'
+

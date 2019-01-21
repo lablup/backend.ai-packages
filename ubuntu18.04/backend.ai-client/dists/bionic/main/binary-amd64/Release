@@ -1,0 +1,5 @@
+Component: main
+Origin: backend.ai-client
+Label: backend.ai-client
+Architecture: amd64
+Description: debian package repo

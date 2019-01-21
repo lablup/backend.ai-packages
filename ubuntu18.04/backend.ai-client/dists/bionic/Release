@@ -1,0 +1,37 @@
+Origin: backend.ai-client
+Label: backend.ai-client
+Codename: bionic
+Date: Mon, 21 Jan 2019 06:42:18 UTC
+Architectures: amd64 i386
+Components: main
+Description: debian package repo
+MD5Sum:
+ 0931444ad084821d9de03541cdad2ac1 10382 main/binary-amd64/Packages
+ 54adc42dcaa0f3df6670caaae3ab24d8 4165 main/binary-amd64/Packages.gz
+ 9c6f692aebf02076f8f8e259d063980c 120 main/binary-amd64/Release
+ 22b74e13f5bb3b60bcb75bad89ffd3a8 7413 main/binary-i386/Packages
+ 98941c24d318fda4e98765ee78324b09 3107 main/binary-i386/Packages.gz
+ b932c857aab4a4fb6175282465892f9c 119 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 895c55331e74561413f18e457a4d7d54 121 main/source/Release
+SHA1:
+ 4f9571a495f77182e4b1f80773c24a3dd8792d87 10382 main/binary-amd64/Packages
+ cb66c987c86bd1e67dae06f767b74a20cfbb8916 4165 main/binary-amd64/Packages.gz
+ 9130eae2757c35c084db22a8f05c9357491f4edb 120 main/binary-amd64/Release
+ 1cfff7fa94d4898977f759cde95a4d5efe7051a1 7413 main/binary-i386/Packages
+ e99d89b6d3440ea9b84e4dc728a320c06490c556 3107 main/binary-i386/Packages.gz
+ e2090f5299c372a8a86523918359267fe8c3bb40 119 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 037450247e1cf6425d3bf0d81b4cfafb303a7ee1 121 main/source/Release
+SHA256:
+ 1e22b75d92ac3bc9ee907af9ab8d2355cd94b838545e576ba297a2a12749aea9 10382 main/binary-amd64/Packages
+ d2b785988ea4c6312db244033cecf0eb91318695d183d000a487d23c2f01cd2d 4165 main/binary-amd64/Packages.gz
+ eb483fbd4ecdd293bbb1b5c7c7c223de10b77447ef4706de3693e9581945ec6b 120 main/binary-amd64/Release
+ e589a6ad7f8776627f62957ef41b7b617131055ebbada29a145f9411fec31900 7413 main/binary-i386/Packages
+ 378fab348a792dfd9da62f719d2c0041c2e2118951a679dcc6ba4eecb473fdde 3107 main/binary-i386/Packages.gz
+ 2391d6090f14d151e3c603a2886ab09faacb2064524bd8528dc0270813cddc0c 119 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 6d730847fa7a0da05c519cb1b20103108ed18287ea3572d7d4aa3dee00bf43ee 121 main/source/Release

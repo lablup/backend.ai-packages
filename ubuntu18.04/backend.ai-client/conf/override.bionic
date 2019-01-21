@@ -1,0 +1,9 @@
+python3-idna-ssl  Priority optional
+python3-typing-extensions Priority optional
+python3-aiohttp Priority optional
+python3-async-timeout Priority optional
+python3-attr Priority optional
+python3-click Priority optional
+python3-tqdm Priority optional
+python3-yarl Priority optional
+backend.ai-client Priority optional
