@@ -18,6 +18,7 @@ Depends: python3 (>= 3.6~),
     python3-async-timeout (>= 3.0),
     python3-attr (>= 18.0),
     python3-zmq (>= 17.1.0),
+    python3-ConfigArgParse(>= 0.12),
     python3-uvloop(>= 0.11.0),
     python3-wrapt (>= 1.10.10),
     python3-trafaret (>= 1.0),
@@ -32,9 +33,141 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_1.0.0_all.deb
-Size: 60612
-SHA256: 6dc75e5cc115db18817715cd5a6c8759d5ac4f23d3d92bed14e9bb5ad0cefb96
-SHA1: 690423f709663daaa4903c2f94b9c98368f4d8e7
-MD5sum: 9fcd2f7e09a5b1e9b15db91cdf4e6936
+Size: 60628
+SHA256: 66b88cefdb64ea73a3a94c60cdbbab4903dbce621d53fee87964988d5d5d7be4
+SHA1: 728ad9d49eec0d348dff22e1c87848ae11f9bb7f
+MD5sum: 8d9c2b155cceb9dbc4782b123954c490
 Description: Backend.ai agent package
+
+Package: python3-aioredis
+Source: aioredis
+Version: 1.2.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 262
+Depends: python3-async-timeout, python3-hiredis, python3:any (>= 3.5~)
+Homepage: http://aioredis.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/main/a/aioredis/python3-aioredis_1.2.0-1_all.deb
+Size: 45904
+SHA256: a5955b59e76ade41d460556cf4cd41702232dce7bf6e1cd902a932854cc7d3c5
+SHA1: 7a6d6e0f7b82cbc4933e4903a4e49b8f7ef50bc7
+MD5sum: 61f14f5e0e02bfe96a28cf81ad89b634
+Description: asyncio (PEP 3156) Redis support
+ The library is intended to provide simple and clear interface to Redis based
+ on asyncio.
+ .
+ Features:
+  * Connections pool
+  * Low-level & high-level API
+  * hiredis parser
+
+Package: python3-async-timeout
+Source: python-async-timeout
+Version: 3.0.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 29
+Depends: python3:any (>= 3.3.2-2~)
+Homepage: https://github.com/aio-libs/async_timeout/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-async-timeout/python3-async-timeout_3.0.0-1_all.deb
+Size: 5480
+SHA256: 6326e4da50ec1dfd75904cd60ecb6319dc2db05e296e402f5b7c578aa1af9b5a
+SHA1: cad004688abdb13aa906f49d4f57599cf57206b0
+MD5sum: 2935a274afe6ee02eea31c6e1ded8af5
+Description: timeout context manager for asyncio programs in Python
+ The context manager is useful in cases when you want to apply timeout
+ logic around block of code or in cases when asyncio.wait_for() is
+ not suitable. Also it's much faster than asyncio.wait_for()
+ because timeout doesn't create a new task.
+ .
+ Example:
+ .
+  with timeout(1.5):
+      yield from inner()
+
+Package: python3-attr
+Source: python-attrs
+Version: 18.2.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: python3:any
+Suggests: python-attr-doc
+Homepage: https://attrs.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-attrs/python3-attr_18.2.0-1_all.deb
+Size: 29628
+SHA256: f15c5156033b781cc75386d5b25c668fef09383819cc7b74f10f581f615aeebe
+SHA1: b2147ac8195381e13aafa379626c5db65cd4c09e
+MD5sum: c0853c18f2ce5775816c2c6010b92b02
+Description: Attributes without boilerplate (Python 3)
+ attrs is an MIT-licensed Python package with class decorators that ease the
+ chores of implementing the most common attribute-related object protocols.
+ .
+ You just specify the attributes to work with and attrs gives you:
+   - a nice human-readable __repr__,
+   - a complete set of comparison methods,
+   - an initializer,
+   - and much more
+ without writing dull boilerplate code again and again.
+ .
+ This package contains attrs packged for Python 3.
+
+Package: python3-idna-ssl
+Version: 1.1.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-idna-ssl/python3-idna-ssl_1.1.0_all.deb
+Size: 2992
+SHA256: 21ffb9b9a9002358750b411b6c738d35ec3e8148dd1debe9a2f91447c55a13ab
+SHA1: fd8f8e0447e60109866be355174d32788ab46b8d
+MD5sum: 696ba633fa7297400b8578a8c269956b
+Description: idna-ssl 
+ :info: Patch ssl.match_hostname for Unicode(idna) domains support
+ .. image:: https://travis-ci.com/aio-libs/idna-ssl.svg?branch=master
+     :target: https://travis-ci.com/aio-libs/idna-ssl
+ .. image:: https://img.shields.io/pypi/v/idna_ssl.svg
+     :target: https://pypi.python.org/pypi/idna_ssl
+ .. image:: https://codecov.io/gh/aio-libs/idna-ssl/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/aio-libs/idna-ssl
+ Installation
+ ------------
+ .. code-block:: shell
+     pip install idna-ssl
+ Usage
+ -----
+ .. code-block:: python
+     from idna_ssl import patch_match_hostname  # noqa isort:skip
+     patch_match_hostname()  # noqa isort:skip
+     import asyncio
+     import aiohttp
+     URL = 'https://цфоут.мвд.рф/news/item/8065038/'
+     async def main():
+         async with aiohttp.ClientSession() as session:
+             async with session.get(URL) as response:
+                 print(response)
+     loop = asyncio.get_event_loop()
+     loop.run_until_complete(main())
+ Motivation
+ ----------
+ * Here is 100% backward capability
+ * Related aiohttp `issue <https://github.com/aio-libs/aiohttp/issues/949>`_
+ * Related Python `bug <https://bugs.python.org/issue31872>`_
+ * Related Python `pull request <https://github.com/python/cpython/pull/3462>`_
+ * It is fixed (by January 27 2018) in upcoming Python 3.7, but `IDNA2008 <https://tools.ietf.org/html/rfc5895>`_ is still broken
+ Thanks
+ ------
+ The library was donated by `Ocean S.A. <https://ocean.io/>`_
+ Thanks to the company for contribution.
 

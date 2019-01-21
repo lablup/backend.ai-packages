@@ -18,6 +18,7 @@ Depends: python3 (>= 3.6~),
     python3-async-timeout (>= 3.0),
     python3-attr (>= 18.0),
     python3-zmq (>= 17.1.0),
+    python3-ConfigArgParse(>= 0.12),
     python3-uvloop(>= 0.11.0),
     python3-wrapt (>= 1.10.10),
     python3-trafaret (>= 1.0),
@@ -32,10 +33,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_1.0.0_all.deb
-Size: 60612
-SHA256: 6dc75e5cc115db18817715cd5a6c8759d5ac4f23d3d92bed14e9bb5ad0cefb96
-SHA1: 690423f709663daaa4903c2f94b9c98368f4d8e7
-MD5sum: 9fcd2f7e09a5b1e9b15db91cdf4e6936
+Size: 60628
+SHA256: 66b88cefdb64ea73a3a94c60cdbbab4903dbce621d53fee87964988d5d5d7be4
+SHA1: 728ad9d49eec0d348dff22e1c87848ae11f9bb7f
+MD5sum: 8d9c2b155cceb9dbc4782b123954c490
 Description: Backend.ai agent package
 
 Package: python3-aiobotocore
@@ -69,6 +70,56 @@ SHA1: f87fc39cca3f2199069866eb475eee791e93a9bd
 MD5sum: 35444d893faa23e12c6bdfc466bca9df
 Description: aiodocker
 
+Package: python3-aiohttp
+Source: python-aiohttp
+Version: 3.5.1-1
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Installed-Size: 1285
+Depends: python3-yarl (>= 1.0), python3 (<< 3.7), python3 (>= 3.6~), python3-async-timeout, python3-attr, python3-chardet, python3-multidict, python3:any (>= 3.5~), libc6 (>= 2.14)
+Recommends: libjs-jquery
+Homepage: https://aiohttp.readthedocs.org
+Priority: optional
+Section: python
+Filename: pool/main/p/python-aiohttp/python3-aiohttp_3.5.1-1_amd64.deb
+Size: 337956
+SHA256: 35d02696900f5ddac60ef5fd0d340a5c89ab186c90dd96e37bc766af4d00621b
+SHA1: 4e933ecdf2f6d7bb3d2f53bc02cf003034f38eb0
+MD5sum: b267ee61a14ffb6f16d823fab4598b69
+Description: http client/server for asyncio
+ HTTP Client for asyncio (PEP 3156 - Asynchronous I/O Support).
+ .
+ Features:
+  * supports both client and server side of HTTP protocol,
+  * supports both client and server Web-Sockets out-of-the-box,
+  * web-server has middlewares and pluggable routing.
+
+Package: python3-aioredis
+Source: aioredis
+Version: 1.2.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 262
+Depends: python3-async-timeout, python3-hiredis, python3:any (>= 3.5~)
+Homepage: http://aioredis.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/main/a/aioredis/python3-aioredis_1.2.0-1_all.deb
+Size: 45904
+SHA256: a5955b59e76ade41d460556cf4cd41702232dce7bf6e1cd902a932854cc7d3c5
+SHA1: 7a6d6e0f7b82cbc4933e4903a4e49b8f7ef50bc7
+MD5sum: 61f14f5e0e02bfe96a28cf81ad89b634
+Description: asyncio (PEP 3156) Redis support
+ The library is intended to provide simple and clear interface to Redis based
+ on asyncio.
+ .
+ Features:
+  * Connections pool
+  * Low-level & high-level API
+  * hiredis parser
+
 Package: python3-aiotools
 Source: python-aiotools
 Version: 0.8.0
@@ -83,6 +134,159 @@ SHA256: f0228dd11aa7c6a56dac1233d6aad01e528c8f035c84d5d07188314d7577da22
 SHA1: 40bb7f21debb4106c274c796a8c3e2f11f92f18e
 MD5sum: c39fdaafdc453aa4af4be8202e6edf51
 Description: aiotools
+
+Package: python3-async-timeout
+Source: python-async-timeout
+Version: 3.0.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 29
+Depends: python3:any (>= 3.3.2-2~)
+Homepage: https://github.com/aio-libs/async_timeout/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-async-timeout/python3-async-timeout_3.0.0-1_all.deb
+Size: 5480
+SHA256: 6326e4da50ec1dfd75904cd60ecb6319dc2db05e296e402f5b7c578aa1af9b5a
+SHA1: cad004688abdb13aa906f49d4f57599cf57206b0
+MD5sum: 2935a274afe6ee02eea31c6e1ded8af5
+Description: timeout context manager for asyncio programs in Python
+ The context manager is useful in cases when you want to apply timeout
+ logic around block of code or in cases when asyncio.wait_for() is
+ not suitable. Also it's much faster than asyncio.wait_for()
+ because timeout doesn't create a new task.
+ .
+ Example:
+ .
+  with timeout(1.5):
+      yield from inner()
+
+Package: python3-attr
+Source: python-attrs
+Version: 18.2.0-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 141
+Depends: python3:any
+Suggests: python-attr-doc
+Homepage: https://attrs.readthedocs.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-attrs/python3-attr_18.2.0-1_all.deb
+Size: 29628
+SHA256: f15c5156033b781cc75386d5b25c668fef09383819cc7b74f10f581f615aeebe
+SHA1: b2147ac8195381e13aafa379626c5db65cd4c09e
+MD5sum: c0853c18f2ce5775816c2c6010b92b02
+Description: Attributes without boilerplate (Python 3)
+ attrs is an MIT-licensed Python package with class decorators that ease the
+ chores of implementing the most common attribute-related object protocols.
+ .
+ You just specify the attributes to work with and attrs gives you:
+   - a nice human-readable __repr__,
+   - a complete set of comparison methods,
+   - an initializer,
+   - and much more
+ without writing dull boilerplate code again and again.
+ .
+ This package contains attrs packged for Python 3.
+
+Package: python3-botocore
+Source: python-botocore
+Version: 1.12.49
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Depends: python3-jmespath (<< 1.0.0), python3-jmespath(>=0.7.1), python3-docutils (>=0.10), python3-dateutil, python3-urllib3 (<<1.25), python3-urllib3(>=1.20)
+Priority: optional
+Section: python
+Filename: pool/main/p/python-botocore/python3-botocore_1.12.49_amd64.deb
+Size: 2550636
+SHA256: be94a28cc7ddfa063f55d761d62f3339c6584d32bcfd1f22189fea6a65ee7ce1
+SHA1: b65e43e8866d8f2df86ce2f7ddcadcb668051558
+MD5sum: 405193373e7da9e893739b86b32e30da
+Description: botocore
+
+Package: python3-configargparse
+Source: python-configargparse
+Version: 0.12.0
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-configargparse/python3-configargparse_0.12.0_amd64.deb
+Size: 15220
+SHA256: 089913763711b868bd5dfed508edc822128527b5ae93ce69028f45c382aa2203
+SHA1: 65b621d63e40fcd812646fe5b735a08daae8cc52
+MD5sum: 83b66cbdb0e695ee831b3c0421dcc373
+Description: configargparse
+
+Package: python3-dataclasses
+Source: python-dataclasses
+Version: 0.6
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-dataclasses/python3-dataclasses_0.6_amd64.deb
+Size: 14140
+SHA256: 125147ec2521aac28d057b276195e6f350564627cc7e1b327590cd54e0a4c856
+SHA1: 453a8f51ee2cab13ba46d71f6cd2c61981acf8a4
+MD5sum: 32a3cbd6e07fd9e83cf7cd12a5f42ff6
+Description: dataclasses
+
+Package: python3-idna-ssl
+Version: 1.1.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-idna-ssl/python3-idna-ssl_1.1.0_all.deb
+Size: 2992
+SHA256: 21ffb9b9a9002358750b411b6c738d35ec3e8148dd1debe9a2f91447c55a13ab
+SHA1: fd8f8e0447e60109866be355174d32788ab46b8d
+MD5sum: 696ba633fa7297400b8578a8c269956b
+Description: idna-ssl 
+ :info: Patch ssl.match_hostname for Unicode(idna) domains support
+ .. image:: https://travis-ci.com/aio-libs/idna-ssl.svg?branch=master
+     :target: https://travis-ci.com/aio-libs/idna-ssl
+ .. image:: https://img.shields.io/pypi/v/idna_ssl.svg
+     :target: https://pypi.python.org/pypi/idna_ssl
+ .. image:: https://codecov.io/gh/aio-libs/idna-ssl/branch/master/graph/badge.svg
+     :target: https://codecov.io/gh/aio-libs/idna-ssl
+ Installation
+ ------------
+ .. code-block:: shell
+     pip install idna-ssl
+ Usage
+ -----
+ .. code-block:: python
+     from idna_ssl import patch_match_hostname  # noqa isort:skip
+     patch_match_hostname()  # noqa isort:skip
+     import asyncio
+     import aiohttp
+     URL = 'https://цфоут.мвд.рф/news/item/8065038/'
+     async def main():
+         async with aiohttp.ClientSession() as session:
+             async with session.get(URL) as response:
+                 print(response)
+     loop = asyncio.get_event_loop()
+     loop.run_until_complete(main())
+ Motivation
+ ----------
+ * Here is 100% backward capability
+ * Related aiohttp `issue <https://github.com/aio-libs/aiohttp/issues/949>`_
+ * Related Python `bug <https://bugs.python.org/issue31872>`_
+ * Related Python `pull request <https://github.com/python/cpython/pull/3462>`_
+ * It is fixed (by January 27 2018) in upcoming Python 3.7, but `IDNA2008 <https://tools.ietf.org/html/rfc5895>`_ is still broken
+ Thanks
+ ------
+ The library was donated by `Ocean S.A. <https://ocean.io/>`_
+ Thanks to the company for contribution.
 
 Package: python3-trafaret
 Source: python-trafaret
@@ -99,4 +303,137 @@ SHA256: e6d0e64b36ba2368496860fb961d9519407a1ce8ae6ad34610a54462312fe0f4
 SHA1: 5dd9cf5d6d14447356e04701c7058adec1906407
 MD5sum: 520060d8428e611e275adc80d38a57b0
 Description: trafaret
+
+Package: python3-uvloop
+Source: uvloop
+Version: 0.11.2+ds1-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 3426
+Depends: python3 (<< 3.8), python3 (>= 3.6~), python3:any (>= 3.5~), libc6 (>= 2.14), libuv1 (>= 1.18.0)
+Homepage: https://github.com/MagicStack/uvloop
+Priority: optional
+Section: python
+Filename: pool/main/u/uvloop/python3-uvloop_0.11.2+ds1-1_amd64.deb
+Size: 831168
+SHA256: d74add21fda4420b4a6129d4d67481d3405e9ddc8693b732f177981862418204
+SHA1: 2c192eb659fcce3e8db4028f1381292fa0f2e698
+MD5sum: 8a938b31e85ef80595598d3d5d562bd1
+Description: fast implementation of asyncio event loop on top of libuv
+ uvloop is a fast, drop-in replacement of the built-in asyncio
+ event loop. uvloop is implemented in Cython and uses libuv
+ under the hood. It makes asyncio 2-4x faster.
+
+Package: python3-wrapt
+Source: python-wrapt
+Version: 1.10.11
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-wrapt/python3-wrapt_1.10.11_amd64.deb
+Size: 21140
+SHA256: 7998ee57b81a62dad01dc769ec25a77cfee4b66fbfb8a22cd22504d3ae551b0f
+SHA1: e2efc40d9f43a2ff463c095bd4c441488115a919
+MD5sum: 480af4eef65c05e9a269f827fbefdd04
+Description: wrapt
+
+Package: python3-yarl
+Source: yarl
+Version: 1.2.4-1build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 258
+Depends: python3 (<< 3.8), python3 (>= 3.6~), python3-idna, python3-multidict (>= 4.0.0), python3:any, libc6 (>= 2.14)
+Homepage: https://github.com/aio-libs/yarl/
+Priority: optional
+Section: python
+Filename: pool/main/y/yarl/python3-yarl_1.2.4-1build1_amd64.deb
+Size: 57168
+SHA256: 871867c597a57fc40d4b80f9b96f82470fade1e14ba05eaca51e7e3f9a53e083
+SHA1: 345ec284c262de41b3948ca3d3556d45758760be
+MD5sum: 956677b886eaa8bc048594accbc9b697
+Description: yet another URL library for Python
+ URL is constructed from `str`:
+ .
+  >>> from yarl import URL
+  >>> url = URL('https://www.python.org/~guido?arg=1#frag')
+  >>> url
+  URL('https://www.python.org/~guido?arg=1#frag')
+ .
+ All URL parts: scheme, user, passsword, host, port, path, query and fragment
+ are accessible by properties:
+ .
+  >>> url.scheme
+  'https'
+  >>> url.host
+  'www.python.org'
+  >>> url.path
+  '/~guido'
+  >>> url.query_string
+  'arg=1'
+  >>> url.query
+  <MultiDictProxy('arg': '1')>
+  >>> url.fragment
+  'frag'
+ .
+ All URL manipulations produces a new URL object:
+ .
+  >>> url.parent / 'downloads/source'
+  URL('https://www.python.org/downloads/source')
+ .
+ Strings passed to constructor and modification methods are automatically
+ encoded giving canonical representation as result::
+ .
+  >>> url = URL('https://www.python.org/Ð¿ÑƒÑ‚ÑŒ')
+  >>> url
+  URL('https://www.python.org/%D0%BF%D1%83%D1%82%D1%8C')
+ .
+ Regular properties are percent-decoded, use `raw_` versions for getting
+ encoded strings:
+ .
+  >>> url.path
+  '/Ð¿ÑƒÑ‚ÑŒ'
+ .
+  >>> url.raw_path
+  '/%D0%BF%D1%83%D1%82%D1%8C'
+ .
+ Human readable representation of URL is available as `.human_repr()`:
+ .
+  >>> url.human_repr()
+  'https://www.python.org/Ð¿ÑƒÑ‚ÑŒ'
+
+Package: python3-zmq
+Source: pyzmq
+Version: 17.1.0-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 2065
+Depends: python3 (<< 3.8), python3 (>= 3.6~), python3:any, libc6 (>= 2.14), libzmq5 (>= 4.2.0)
+Homepage: http://www.zeromq.org/bindings:python
+Priority: optional
+Section: python
+Filename: pool/main/p/pyzmq/python3-zmq_17.1.0-1_amd64.deb
+Size: 318836
+SHA256: 78a5b74099d986b568f4b64011f02989bf8da30db1d12ec81b1be99604e95c11
+SHA1: ad85917a42bd8ec6186ec3e3731cff06395878af
+MD5sum: ed4a49f49d102fc1748ed7dd5fbc1f9c
+Description: Python3 bindings for 0MQ library
+ Python bindings for 0MQ. 0MQ is a small, fast, and free
+ software library that gives you message-passing concurrency
+ for applications in most common languages.
+ .
+ The 0MQ lightweight messaging kernel is a library which
+ extends the standard socket interfaces with features
+ traditionally provided by specialised messaging middleware
+ products. 0MQ sockets provide an abstraction of asynchronous
+ message queues, multiple messaging patterns, message
+ filtering (subscriptions), seamless access to multiple
+ transport protocols and more.
+ .
+ This package contains the extension built for the Python3 interpreter.
 

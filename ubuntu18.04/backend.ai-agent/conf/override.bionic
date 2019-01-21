@@ -1,6 +1,18 @@
-python3-aiodocker Priority optional
-backend.ai-agent Priority optional
-python3-aiotools Priority optional
-python3-trafaret Priority optional
+python3-botocore Priority optional
+python3-idna-ssl Priority optional
+python3-wrapt Priority optional
+python3-yarl Priority optional
+python3-configargparse Priority optional
 python3-aiobotocore Priority optional
-
+python3-aiodocker Priority optional
+python3-aiohttp Priority optional
+python3-aioredis Priority optional
+python3-aiotools Priority optional
+python3-async-timeout Priority optional
+python3-attr Priority optional
+python3-typing-extentions Priority optional
+python3-dataclasses Priority optional
+python3-trafaret Priority optional
+python3-uvloop Priority optional
+python3-zmq Priority optional
+backend.ai-agent Priority optional
