@@ -1,17 +1,27 @@
 Package: backend.ai-client
-Version: 1.0.0
+Version: 18.12.0
 Architecture: all
 Maintainer: Lablup Developers <sykang@lablup.com>
 Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
-Depends: python3 (>= 3.6~), python3-dateutil (>= 2.5), python3-humanize (>= 0.5.1), python3-tabulate (>= 0.7.7),
-    python3-aiohttp (>= 3.4.0), python3-async-timeout (>= 3.0), python3-tqdm (>= 4.21), python3-click (>= 7.0), python3-attr (>= 18.0), python3-typing-extensions (>=3.6.5)
+Depends: python3 (>= 3.6~),
+    python3-dateutil (>= 2.5),
+    python3-humanize (>= 0.5.1),
+    python3-tabulate (>= 0.7.7),
+    python3-aiohttp (>= 3.4.0),
+    python3-async-timeout (>= 3.0),
+    python3-tqdm (>= 4.21),
+    python3-click (>= 7.0),
+    python3-attr (>= 18.0),
+    python3-typing-extensions (>=3.6.5),
+    python3-idna-ssl (>= 1.1.0),
+    python3-yarl (>= 1.1.0)
 Priority: optional
 Section: devel
-Filename: pool/main/b/backend.ai-client/backend.ai-client_1.0.0_all.deb
-Size: 75228
-SHA256: 742d0c9baa54e716faf92b1397bf072e27b4baae88452af8aeacea2b78d4d823
-SHA1: 56a63abf9c3cf055342d83acb68845d91a0b5605
-MD5sum: cf45eb02fbeb3583c26862d681dc6831
+Filename: pool/main/b/backend.ai-client/backend.ai-client_18.12.0_all.deb
+Size: 75252
+SHA256: ea8749a8375ffd24df18596262ad14fddb12d77066cbf95459af949eee4b2643
+SHA1: 231d38b4d7e7510b2d8ffba919c6d8b19c026db7
+MD5sum: 67d8ee1037ef816b877019714ec5032b
 Description: Backend.ai client package
 
 Package: python3-aiohttp

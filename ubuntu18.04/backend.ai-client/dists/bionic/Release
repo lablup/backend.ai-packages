@@ -1,36 +1,36 @@
 Origin: backend.ai-client
 Label: backend.ai-client
 Codename: bionic
-Date: Tue, 22 Jan 2019 03:26:37 UTC
+Date: Tue, 22 Jan 2019 06:52:06 UTC
 Architectures: amd64 i386
 Components: main
 Description: debian package repo
 MD5Sum:
- d8d59b57b91dc346f5759c9c4a470d31 10419 main/binary-amd64/Packages
- f9efc60be72c9af3e9129465248cc5a6 4174 main/binary-amd64/Packages.gz
+ 2250f65434fc2d2238e59811ba3bd0c0 10517 main/binary-amd64/Packages
+ 630614955934c86d1560b4c375dc1375 4190 main/binary-amd64/Packages.gz
  9c6f692aebf02076f8f8e259d063980c 120 main/binary-amd64/Release
- 1cc909aee5e66fc40e20f49ba37331fa 7450 main/binary-i386/Packages
- 746ed7692a54c21baeb98b136f629dbf 3118 main/binary-i386/Packages.gz
+ 98289366cdef7badfd946a1777f6e507 7548 main/binary-i386/Packages
+ 729085d39a8f0580e03b4896fef16d50 3138 main/binary-i386/Packages.gz
  b932c857aab4a4fb6175282465892f9c 119 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  895c55331e74561413f18e457a4d7d54 121 main/source/Release
 SHA1:
- f53d59989543b1ea167621b496fc12edf7639d91 10419 main/binary-amd64/Packages
- 6b7f29e83b17730a5e33e83ffc08bd0483534fd6 4174 main/binary-amd64/Packages.gz
+ e562595bc4335a4202c07d6850bbb379cb12c79c 10517 main/binary-amd64/Packages
+ 94f478dfe851c0d040b41b6f75100e235efcefd0 4190 main/binary-amd64/Packages.gz
  9130eae2757c35c084db22a8f05c9357491f4edb 120 main/binary-amd64/Release
- a7800b477492a8c5b45303139c7e1d0a9b569bc5 7450 main/binary-i386/Packages
- 18b30e7f854b5cc47bae9d8249ddd22642ac8882 3118 main/binary-i386/Packages.gz
+ 76988ce87250804ed95cc65276066566d7d91b77 7548 main/binary-i386/Packages
+ ee9513ceaf0fe0870e125b3708d640b8ff962286 3138 main/binary-i386/Packages.gz
  e2090f5299c372a8a86523918359267fe8c3bb40 119 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  037450247e1cf6425d3bf0d81b4cfafb303a7ee1 121 main/source/Release
 SHA256:
- f9cb8c8fafdc150bbdf109fdc41df5f4742302289dfb16c5cf76ea4c40d2298d 10419 main/binary-amd64/Packages
- 610ed220cb44b340fc743f14aa2bf0ac1c15adce12a627d3b420eae270a4f58c 4174 main/binary-amd64/Packages.gz
+ 16b99df6156737862b7b66d6d9d78104d04197da419c1f67a9f04ccc7761a6c6 10517 main/binary-amd64/Packages
+ e93074d2d52dd5f7880ba7a46e9c671419df5dbb6f7177b049e2af0c5b7dbeff 4190 main/binary-amd64/Packages.gz
  eb483fbd4ecdd293bbb1b5c7c7c223de10b77447ef4706de3693e9581945ec6b 120 main/binary-amd64/Release
- cdb94ad1ff6c172c3ff519b2a806d5f049a7f41f49200aa8c70e7d9142d75c2c 7450 main/binary-i386/Packages
- ea777c603d8db487b488d25ce15866131cbd2633122d81ee6c397ef639c7888e 3118 main/binary-i386/Packages.gz
+ 46ce74f9c41a254f09e2b9730251b9a0f0a32f53018de176ecf79807199922f7 7548 main/binary-i386/Packages
+ 0187a3dff8848bd9d0e0ecf7bb7cb8c34ea66bff5c29c74858c6f142d3056fe9 3138 main/binary-i386/Packages.gz
  2391d6090f14d151e3c603a2886ab09faacb2064524bd8528dc0270813cddc0c 119 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
