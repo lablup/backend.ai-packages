@@ -1,16 +1,51 @@
 Package: backend.ai-manager
-Version: 1.0.0
+Version: 18.12.0
 Architecture: all
 Maintainer: Lablup Developers <sykang@lablup.com>
 Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
-Depends: python3 (>= 3.6~), python3-aiozmq (>= 0.7), python3-dateutil (>= 2.5), python3-coloredlogs (>= 5.2), python3-snappy(>= 0.5.1), python3-setproctitle (>= 1.1.10), backend.ai-common(>= 18.12.0)
+Depends: python3 (>= 3.6~),
+    python3-aiozmq (>= 0.7),
+    python3-dateutil (>= 2.5),
+    python3-coloredlogs (>= 5.2),
+    python3-snappy(>= 0.5.1),
+    python3-setproctitle (>= 1.1.10),
+    python3-idna-ssl,
+    python3-typing-extensions (>= 3.6.5),
+    python3-PyYAML,
+    python3-ConfigArgParse (>= 0.12),
+    python3-SQLAlchemy (>= 1.1.14),
+    python3-dataclasses,
+    python3-aioconsole (>= 0.1.3),
+    python3-graphene (>= 2.1.0),
+    python3-aiodataloader,
+    python3-graphhql,
+    python3-aiohttp-cors (>= 0.7),
+    python3-graphql-relay,
+    python3-aiohttp (>= 3.3.1),
+    python3-humanfriendly,
+    python3-aiojobs (>= 0.2.2),
+    python3-promise,
+    python3-aiopg (>= 0.15.0),
+    python3-psycopg2 (>= 2.7.0),
+    python3-aioredis (>= 1.2.0),
+    python3-pytz,
+    python3-aiotools (>= 0.8.0),
+    python3-rx,
+    python3-alembic (>= 1.0.0),
+    python3-snappy (>= 0.5.1),
+    python3-aniso8601,
+    python3-uvloop (>= 0.11.0),
+    python3-async-timeout (>= 3.0),
+    python3-zmq (>= 17.0),
+    python3-attr (>= 18.0),
+    backend.ai-common(>= 18.12.0)
 Priority: optional
 Section: devel
-Filename: pool/main/b/backend.ai-manager/backend.ai-manager_1.0.0_all.deb
-Size: 43368
-SHA256: 00305d123f02e074ea379747a775eb8d1756d7e7ecedfc6290fffc602c876786
-SHA1: 7c27aca6c71c4c3913a663ffb6b8fbd48147026e
-MD5sum: ff78fb4dcb6f7b9fb5a4f574c73115a3
+Filename: pool/main/b/backend.ai-manager/backend.ai-manager_18.12.0_all.deb
+Size: 43632
+SHA256: a7a8e341b8797a3483a7e2309f3b9f7ef44aceea9ccb7454b0d5bc90c33694da
+SHA1: cacc5ef1dbba703269ca9a4b83b579dcad0b2567
+MD5sum: 79895077f315a9bb58e43f4e011fa501
 Description: Backend.ai manager package
 
 Package: python3-aiohttp-cors
