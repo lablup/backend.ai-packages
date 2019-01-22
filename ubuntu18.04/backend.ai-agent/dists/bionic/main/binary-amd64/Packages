@@ -39,6 +39,21 @@ SHA1: 728ad9d49eec0d348dff22e1c87848ae11f9bb7f
 MD5sum: 8d9c2b155cceb9dbc4782b123954c490
 Description: Backend.ai agent package
 
+Package: python3-ConfigArgParse
+Source: python-ConfigArgParse
+Version: 0.12.0
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-ConfigArgParse/python3-ConfigArgParse_0.12.0_amd64.deb
+Size: 15224
+SHA256: 4df006a3451fdc5caaec45c0445d893077969dd4031df36b18fce6dd68d9f7c8
+SHA1: 699db4c403ffcd91afee5a9541f5c68c955c5d63
+MD5sum: a5bd00552204f3e57a9e2d5cde3e081a
+Description: ConfigArgParse
+
 Package: python3-aiobotocore
 Source: python-aiobotocore
 Version: 0.10.0
@@ -207,21 +222,6 @@ SHA256: be94a28cc7ddfa063f55d761d62f3339c6584d32bcfd1f22189fea6a65ee7ce1
 SHA1: b65e43e8866d8f2df86ce2f7ddcadcb668051558
 MD5sum: 405193373e7da9e893739b86b32e30da
 Description: botocore
-
-Package: python3-configargparse
-Source: python-configargparse
-Version: 0.12.0
-Architecture: amd64
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Lablup <sykang@lablup.com>
-Priority: optional
-Section: python
-Filename: pool/main/p/python-configargparse/python3-configargparse_0.12.0_amd64.deb
-Size: 15220
-SHA256: 089913763711b868bd5dfed508edc822128527b5ae93ce69028f45c382aa2203
-SHA1: 65b621d63e40fcd812646fe5b735a08daae8cc52
-MD5sum: 83b66cbdb0e695ee831b3c0421dcc373
-Description: configargparse
 
 Package: python3-dataclasses
 Source: python-dataclasses

@@ -11,11 +11,11 @@ depend=$(ls ./packages/depend_packages)
 target=$(ls ./packages | grep "deb")
 
 for i in $pre_depend ; do
-    sudo reprepro includedeb bionic ./packages/pre_depend_packages/$i
+    sudo reprepro --ignore=forbiddenchar includedeb bionic ./packages/pre_depend_packages/$i
 done
 
 for i in $depend ; do
-    sudo reprepro includedeb bionic ./packages/depend_packages/$i  
+    sudo reprepro --ignore=forbiddenchar includedeb bionic ./packages/depend_packages/$i  
 done
 
 sudo reprepro includedeb bionic ./packages/$target
