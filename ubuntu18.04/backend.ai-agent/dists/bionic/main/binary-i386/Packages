@@ -6,7 +6,7 @@ Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
 Depends: python3 (>= 3.6~),
     python3-botocore (>= 1.12.49),
     python3-idna-ssl (>= 1.1.0),
-    python3-typing-extentions,
+    python3-typing-extensions (>= 3.6.5),
     python3-wrapt,
     python3-yarl (>= 1.1.0),
     python3-dataclasses,
@@ -18,7 +18,6 @@ Depends: python3 (>= 3.6~),
     python3-async-timeout (>= 3.0),
     python3-attr (>= 18.0),
     python3-zmq (>= 17.1.0),
-    python3-ConfigArgParse(>= 0.12),
     python3-uvloop(>= 0.11.0),
     python3-wrapt (>= 1.10.10),
     python3-trafaret (>= 1.0),
@@ -33,10 +32,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_1.0.0_all.deb
-Size: 60628
-SHA256: 66b88cefdb64ea73a3a94c60cdbbab4903dbce621d53fee87964988d5d5d7be4
-SHA1: 728ad9d49eec0d348dff22e1c87848ae11f9bb7f
-MD5sum: 8d9c2b155cceb9dbc4782b123954c490
+Size: 60616
+SHA256: 7edeb9563ad188978110490eed4ef0c546ab1416e30d06ac8be5790d586595f3
+SHA1: 8bb0967fa0330576251a42f2c55380472e877019
+MD5sum: 45c223e0cb733a627b569524d6601c4f
 Description: Backend.ai agent package
 
 Package: python3-aioredis
