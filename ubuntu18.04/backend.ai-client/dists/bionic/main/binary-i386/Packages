@@ -4,14 +4,14 @@ Architecture: all
 Maintainer: Lablup Developers <sykang@lablup.com>
 Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
 Depends: python3 (>= 3.6~), python3-dateutil (>= 2.5), python3-humanize (>= 0.5.1), python3-tabulate (>= 0.7.7),
-    python3-aiohttp (>= 3.4.0), python3-async-timeout (>= 3.0), python3-tqdm (>= 4.21), python3-click (>= 7.0), python3-attr (>= 18.0)
+    python3-aiohttp (>= 3.4.0), python3-async-timeout (>= 3.0), python3-tqdm (>= 4.21), python3-click (>= 7.0), python3-attr (>= 18.0), python3-extensions (>=3.6.5)
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-client/backend.ai-client_1.0.0_all.deb
-Size: 75244
-SHA256: 2defae7ed9bdfc9fdaeaf148fbe54d8e179c7688f7bebbd918f9080b92696578
-SHA1: 2b3b3f99458a36bee270e2f921af948b3028a126
-MD5sum: 826cc00d7749e3db6ab128732a66bb40
+Size: 75228
+SHA256: f8923a39847d6ea9f24073a1ca6561631c1a695dd4be786e2aa8752e77a029ff
+SHA1: 2e2a4fb38d6f358137d39bf5b5d2cd21629642b0
+MD5sum: 39b4a63a689cc43da80e0a50ebb4a0ef
 Description: Backend.ai client package
 
 Package: python3-async-timeout
