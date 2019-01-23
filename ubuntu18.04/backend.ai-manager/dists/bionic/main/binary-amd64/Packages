@@ -11,10 +11,10 @@ Depends: python3 (>= 3.6~),
     python3-setproctitle (>= 1.1.10),
     python3-idna-ssl,
     python3-typing-extensions (>= 3.6.5),
-    python3-PyYAML,
-    python3-ConfigArgParse (>= 0.12),
-    python3-SQLAlchemy (>= 1.1.14),
+    python3-yaml,
+    ython3-sqlalchemy(>= 1.1.14),
     python3-dataclasses,
+    python3-configargparse (>= 0.12),
     python3-aioconsole (>= 0.1.3),
     python3-graphene (>= 2.1.0),
     python3-aiodataloader,
@@ -42,71 +42,11 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-manager/backend.ai-manager_18.12.0_all.deb
-Size: 43628
-SHA256: bfc3364c71f56076ff5558a8145f8ab0b3b24f03ff5914b33f435a4e8b2d3021
-SHA1: fdfd985c93c0e2f9b38f7e98d73a119d3ef56d0b
-MD5sum: a6c25273e8af59155c2e7f899dc360d9
+Size: 43620
+SHA256: 57a6b91157e43fe091128010db0b48e7ce2ae516f2b64c51497ae0af74304965
+SHA1: 415a7325cf69468b2b7fca84e06fa0d082f6a839
+MD5sum: 1e6d07801078b37fabc01cf652df5d72
 Description: Backend.ai manager package
-
-Package: python3-ConfigArgParse
-Source: python-ConfigArgParse
-Version: 0.12.0
-Architecture: amd64
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Lablup <sykang@lablup.com>
-Priority: optional
-Section: python
-Filename: pool/main/p/python-ConfigArgParse/python3-ConfigArgParse_0.12.0_amd64.deb
-Size: 15224
-SHA256: 4df006a3451fdc5caaec45c0445d893077969dd4031df36b18fce6dd68d9f7c8
-SHA1: 699db4c403ffcd91afee5a9541f5c68c955c5d63
-MD5sum: a5bd00552204f3e57a9e2d5cde3e081a
-Description: ConfigArgParse
-
-Package: python3-PyYAML
-Source: python-PyYAML
-Version: 3.13
-Architecture: amd64
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Lablup <sykang@lablup.com>
-Priority: optional
-Section: python
-Filename: pool/main/p/python-PyYAML/python3-PyYAML_3.13_amd64.deb
-Size: 67260
-SHA256: ba3ec722ac9116a71cc2b2ae306a9d872fa8043c3d7d50ecd9d1e18425228df8
-SHA1: be1264ffc0455cf2184901cdb9c5ef99e5c32e86
-MD5sum: 24f8a563db0d32c4da682e18432a4056
-Description: PyYAML
-
-Package: python3-Rx
-Source: python-Rx
-Version: 1.6.1
-Architecture: amd64
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Lablup <sykang@lablup.com>
-Priority: optional
-Section: python
-Filename: pool/main/p/python-Rx/python3-Rx_1.6.1_amd64.deb
-Size: 62520
-SHA256: f788e51f9390b895b3c8d825cc7f0f89c19935272fb2c37f2a2fcb07b656143a
-SHA1: d19d7cb7fadb7ab349a175f720dcf80e49b44d8a
-MD5sum: 817731ca2afbf6ddc18a74ba368a3496
-Description: Rx
-
-Package: python3-SQLAlchemy
-Source: python-SQLAlchemy
-Version: 1.1.14
-Architecture: amd64
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Lablup <sykang@lablup.com>
-Priority: optional
-Section: python
-Filename: pool/main/p/python-SQLAlchemy/python3-SQLAlchemy_1.1.14_amd64.deb
-Size: 907336
-SHA256: 1f962a5e2f190a63a9f17397bd9df456197fd38097c0d169cc5b1c62e883560e
-SHA1: e52732160d28ca4b89dbefe5ce149a18480f553d
-MD5sum: 9d49e1b46b975647da87d1bb70ea747c
-Description: SQLAlchemy
 
 Package: python3-aioconsole
 Source: python-aioconsole
@@ -359,6 +299,21 @@ Description: Attributes without boilerplate (Python 3)
  .
  This package contains attrs packged for Python 3.
 
+Package: python3-configargparse
+Source: python-configargparse
+Version: 0.12.0
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-configargparse/python3-configargparse_0.12.0_amd64.deb
+Size: 15220
+SHA256: 463ac355ccb1e09ec7972b23660adf160ee9d5c2759591a5b1582852555abf5d
+SHA1: 8c81a8722a994e79eebafa2c9779f1d779acb80c
+MD5sum: b18c7f353bbb8a2e5ead3a48cefaa046
+Description: configargparse
+
 Package: python3-dataclasses
 Source: python-dataclasses
 Version: 0.6
@@ -538,6 +493,21 @@ Description: snappy compression library from Google - Python 3.x
  .
  This package provides the Python 3.x module.
 
+Package: python3-sqlalchemy
+Source: python-sqlalchemy
+Version: 1.1.14
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-sqlalchemy/python3-sqlalchemy_1.1.14_amd64.deb
+Size: 907300
+SHA256: 543c4aa1deaa944fd378953da82efc74d7cdae8c53341255205c7b34ecfd35e4
+SHA1: 4172f9133958572dee6728923bc309d7746d251a
+MD5sum: 5a3fa540fcc6e05b1ddb09bc41f69139
+Description: SQLAlchemy
+
 Package: python3-typing-extensions
 Source: python3-typing-extensions
 Version: 3.6.6
@@ -573,6 +543,21 @@ Description: fast implementation of asyncio event loop on top of libuv
  uvloop is a fast, drop-in replacement of the built-in asyncio
  event loop. uvloop is implemented in Cython and uses libuv
  under the hood. It makes asyncio 2-4x faster.
+
+Package: python3-yaml
+Source: python-yaml
+Version: 3.13
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-yaml/python3-yaml_3.13_amd64.deb
+Size: 67244
+SHA256: 25b19bc44374efe9b1870ebcaea6edfb68e222cf6e7d6f979b3957e86c3a9d1b
+SHA1: bacdff949e782cefadbe9f73dc2de792a5585400
+MD5sum: 33a429847ae2544de4b9a2184c4dcb88
+Description: PyYAML
 
 Package: python3-zmq
 Source: pyzmq

@@ -1,7 +1,7 @@
 python3-idna-ssl Priority optional
 python3-typing-extensions Priority optional
-python3-PyYAML Priority optional
-python3-SQLAlchemy Priority optional
+python3-yaml Priority optional
+python3-sqlalchemy Priority optional
 python3-aioconsole Priority optional
 python3-aiodataloader Priority optional
 python3-aiohttp-cors Priority optional
@@ -13,7 +13,7 @@ python3-aiotools Priority optional
 python3-alembic Priority optional
 python3-aniso8601 Priority optional
 python3-async-timeout Priority optional
-python3-ConfigArgParse Priority optional
+python3-configargparse Priority optional
 python3-attr Priority optional
 python3-dataclasses Priority optional
 python3-graphene Priority optional
@@ -30,5 +30,4 @@ python3-rx Priority optional
 python3-snappy Priority optional
 python3-uvloop Priority optional
 python3-zmq Priority optional
-python3-Rx Priority optional
 backend.ai-manager Priority optional
