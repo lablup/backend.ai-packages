@@ -5,7 +5,7 @@
   
 * 1. clone git repository to your local  
 ````  
-$ sudo git clone git@github.com:lablup/backend.ai-packages.git /usr/local/backend.ai   
+$ sudo git clone https://github.com/lablup/backend.ai-packages.git /usr/local/backend.ai   
 ````  
 
 * 2. Add gpg key and Add apt-source-list ( You can use ./setup.sh for setup !!)  
