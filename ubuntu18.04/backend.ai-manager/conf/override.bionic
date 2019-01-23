@@ -25,7 +25,7 @@ python3-graphql-relay Priority optional
 python3-humanfriendly Priority optional
 python3-promise Priority optional
 python3-psycopg2 Priority optional
-python3-pytz Priority optional
+python3-tz Priority optional
 python3-rx Priority optional
 python3-snappy Priority optional
 python3-uvloop Priority optional

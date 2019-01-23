@@ -18,7 +18,6 @@ Depends: python3 (>= 3.6~),
     python3-aioconsole (>= 0.1.3),
     python3-graphene (>= 2.1.0),
     python3-aiodataloader,
-    python3-graphhql,
     python3-aiohttp-cors (>= 0.7),
     python3-graphql-relay,
     python3-aiohttp (>= 3.3.1),
@@ -28,7 +27,7 @@ Depends: python3 (>= 3.6~),
     python3-aiopg (>= 0.15.0),
     python3-psycopg2 (>= 2.7.0),
     python3-aioredis (>= 1.2.0),
-    python3-pytz,
+    python3-tz,
     python3-aiotools (>= 0.8.0),
     python3-rx,
     python3-alembic (>= 1.0.0),
@@ -42,10 +41,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-manager/backend.ai-manager_18.12.0_all.deb
-Size: 43632
-SHA256: a7a8e341b8797a3483a7e2309f3b9f7ef44aceea9ccb7454b0d5bc90c33694da
-SHA1: cacc5ef1dbba703269ca9a4b83b579dcad0b2567
-MD5sum: 79895077f315a9bb58e43f4e011fa501
+Size: 43624
+SHA256: c81dbfb980dd59d3e92528e923d0c5d07294ed3392707077bf42bb520bfdc5b7
+SHA1: 71d65b03c0e7110b298fbb5ef5b21b299aedfda8
+MD5sum: adcecccb247575d80deb51fdcdb6cca6
 Description: Backend.ai manager package
 
 Package: python3-ConfigArgParse
