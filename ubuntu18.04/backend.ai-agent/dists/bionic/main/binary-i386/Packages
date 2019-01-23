@@ -19,7 +19,6 @@ Depends: python3 (>= 3.6~),
     python3-attr (>= 18.0),
     python3-zmq (>= 17.1.0),
     python3-uvloop(>= 0.11.0),
-    python3-wrapt (>= 1.10.10),
     python3-trafaret (>= 1.0),
     python3-coloredlogs (>= 5.2),
     python3-snappy(>= 0.5.1), 
@@ -28,14 +27,15 @@ Depends: python3 (>= 3.6~),
     python3-aiozmq (>= 0.7), 
     python3-psutil(>= 5.4.0), 
     python3-requests, 
-    python3-requests-unixsocket 
+    python3-requests-unixsocket,
+    python3-configargparse (>= 0.12)
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_18.12.0_all.deb
-Size: 60620
-SHA256: 138d3da3504f9bfcca3057e3b74eb25630097d0df018635c328ab9ed795e136c
-SHA1: df4d01d51ba1a400cbe1984cd87ef2cdb821b692
-MD5sum: c9bc433e599b65736b3b769726ee762c
+Size: 60632
+SHA256: d36654b7d1a402500380adedf7dac65489bafdc3aab834cfa966a095272e72d4
+SHA1: 7660076ec9fd98f225e169729b998f83db4aa414
+MD5sum: 95197f56c5b01dfd08d3d82c5513a122
 Description: Backend.ai agent package
 
 Package: python3-aioredis

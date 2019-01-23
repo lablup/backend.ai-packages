@@ -2,7 +2,7 @@ python3-botocore Priority optional
 python3-idna-ssl Priority optional
 python3-wrapt Priority optional
 python3-yarl Priority optional
-python3-ConfigArgParse Priority optional
+python3-configargparse Priority optional
 python3-aiobotocore Priority optional
 python3-aiodocker Priority optional
 python3-aiohttp Priority optional

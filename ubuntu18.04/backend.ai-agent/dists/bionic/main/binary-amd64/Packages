@@ -19,7 +19,6 @@ Depends: python3 (>= 3.6~),
     python3-attr (>= 18.0),
     python3-zmq (>= 17.1.0),
     python3-uvloop(>= 0.11.0),
-    python3-wrapt (>= 1.10.10),
     python3-trafaret (>= 1.0),
     python3-coloredlogs (>= 5.2),
     python3-snappy(>= 0.5.1), 
@@ -28,30 +27,16 @@ Depends: python3 (>= 3.6~),
     python3-aiozmq (>= 0.7), 
     python3-psutil(>= 5.4.0), 
     python3-requests, 
-    python3-requests-unixsocket 
+    python3-requests-unixsocket,
+    python3-configargparse (>= 0.12)
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_18.12.0_all.deb
-Size: 60620
-SHA256: 138d3da3504f9bfcca3057e3b74eb25630097d0df018635c328ab9ed795e136c
-SHA1: df4d01d51ba1a400cbe1984cd87ef2cdb821b692
-MD5sum: c9bc433e599b65736b3b769726ee762c
+Size: 60632
+SHA256: d36654b7d1a402500380adedf7dac65489bafdc3aab834cfa966a095272e72d4
+SHA1: 7660076ec9fd98f225e169729b998f83db4aa414
+MD5sum: 95197f56c5b01dfd08d3d82c5513a122
 Description: Backend.ai agent package
-
-Package: python3-ConfigArgParse
-Source: python-ConfigArgParse
-Version: 0.12.0
-Architecture: amd64
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Lablup <sykang@lablup.com>
-Priority: optional
-Section: python
-Filename: pool/main/p/python-ConfigArgParse/python3-ConfigArgParse_0.12.0_amd64.deb
-Size: 15224
-SHA256: 4df006a3451fdc5caaec45c0445d893077969dd4031df36b18fce6dd68d9f7c8
-SHA1: 699db4c403ffcd91afee5a9541f5c68c955c5d63
-MD5sum: a5bd00552204f3e57a9e2d5cde3e081a
-Description: ConfigArgParse
 
 Package: python3-aiobotocore
 Source: python-aiobotocore
@@ -221,6 +206,21 @@ SHA256: be94a28cc7ddfa063f55d761d62f3339c6584d32bcfd1f22189fea6a65ee7ce1
 SHA1: b65e43e8866d8f2df86ce2f7ddcadcb668051558
 MD5sum: 405193373e7da9e893739b86b32e30da
 Description: botocore
+
+Package: python3-configargparse
+Source: python-configargparse
+Version: 0.12.0
+Architecture: amd64
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python-configargparse/python3-configargparse_0.12.0_amd64.deb
+Size: 15220
+SHA256: 463ac355ccb1e09ec7972b23660adf160ee9d5c2759591a5b1582852555abf5d
+SHA1: 8c81a8722a994e79eebafa2c9779f1d779acb80c
+MD5sum: b18c7f353bbb8a2e5ead3a48cefaa046
+Description: configargparse
 
 Package: python3-dataclasses
 Source: python-dataclasses
