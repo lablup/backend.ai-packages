@@ -18,6 +18,7 @@ Depends: python3 (>= 3.6~),
     python3-aioconsole (>= 0.1.3),
     python3-graphene (>= 2.1.0),
     python3-aiodataloader,
+    python3-graphql-core,
     python3-aiohttp-cors (>= 0.7),
     python3-graphql-relay,
     python3-aiohttp (>= 3.3.1),
@@ -41,10 +42,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-manager/backend.ai-manager_18.12.0_all.deb
-Size: 43624
-SHA256: c81dbfb980dd59d3e92528e923d0c5d07294ed3392707077bf42bb520bfdc5b7
-SHA1: 71d65b03c0e7110b298fbb5ef5b21b299aedfda8
-MD5sum: adcecccb247575d80deb51fdcdb6cca6
+Size: 43628
+SHA256: bfc3364c71f56076ff5558a8145f8ab0b3b24f03ff5914b33f435a4e8b2d3021
+SHA1: fdfd985c93c0e2f9b38f7e98d73a119d3ef56d0b
+MD5sum: a6c25273e8af59155c2e7f899dc360d9
 Description: Backend.ai manager package
 
 Package: python3-aiohttp-cors

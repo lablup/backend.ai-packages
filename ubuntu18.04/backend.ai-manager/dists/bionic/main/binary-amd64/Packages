@@ -18,6 +18,7 @@ Depends: python3 (>= 3.6~),
     python3-aioconsole (>= 0.1.3),
     python3-graphene (>= 2.1.0),
     python3-aiodataloader,
+    python3-graphql-core,
     python3-aiohttp-cors (>= 0.7),
     python3-graphql-relay,
     python3-aiohttp (>= 3.3.1),
@@ -41,10 +42,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-manager/backend.ai-manager_18.12.0_all.deb
-Size: 43624
-SHA256: c81dbfb980dd59d3e92528e923d0c5d07294ed3392707077bf42bb520bfdc5b7
-SHA1: 71d65b03c0e7110b298fbb5ef5b21b299aedfda8
-MD5sum: adcecccb247575d80deb51fdcdb6cca6
+Size: 43628
+SHA256: bfc3364c71f56076ff5558a8145f8ab0b3b24f03ff5914b33f435a4e8b2d3021
+SHA1: fdfd985c93c0e2f9b38f7e98d73a119d3ef56d0b
+MD5sum: a6c25273e8af59155c2e7f899dc360d9
 Description: Backend.ai manager package
 
 Package: python3-ConfigArgParse
@@ -551,21 +552,6 @@ SHA256: d7a52c4370b857fa2f9e109fe28f980d91ad56d0d8cb78333860125c043fe37e
 SHA1: d7f67fc901de624166e79b441497e34bb211d74e
 MD5sum: 5c9399d9c6742fe8e7c76de5c4fcf7a6
 Description:  python3-typing-extensions
-
-Package: python3-tz
-Source: python-tz
-Version: 2018.9
-Architecture: amd64
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Lablup <sykang@lablup.com>
-Priority: optional
-Section: python
-Filename: pool/main/p/python-tz/python3-tz_2018.9_amd64.deb
-Size: 146316
-SHA256: 8ae6a377175bff09cf6a2bc3f70355bb505622969627079f1f1b206b4e84bbcc
-SHA1: ff8bbdba268908e1c6e3e05e65a3d4ba6640b42d
-MD5sum: 016723ffc5cb37a2febd1e5be1b6f461
-Description: pytz
 
 Package: python3-uvloop
 Source: uvloop
