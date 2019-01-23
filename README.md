@@ -3,17 +3,18 @@
 ------------------------------------  
 ## How to Install Backend.AI SDK ?
   
-* 1. clone git repository to your local  
+1) clone git repository to your local  
 ````  
 $ sudo git clone https://github.com/lablup/backend.ai-packages.git /usr/local/backend.ai   
 ````  
 
-* 2. Add gpg key and Add apt-source-list ( You can use ./setup.sh for setup !!)  
+2) Add gpg key and Add apt-source-list ( You can use ./setup.sh for setup !!)  
 ````  
-$ sudo /usr/local/backend.ai/setup.sh  
+$ cd /usr/local/backend.ai  
+$ sudo ./setup.sh  
 ````  
 
-* 3. Install Backend.AI moduls which you want to use  
+3) Install Backend.AI moduls which you want to use  
 ````  
 $ sudo apt install backend.ai-client  
 $ sudo apt install backend.ai-manager  
