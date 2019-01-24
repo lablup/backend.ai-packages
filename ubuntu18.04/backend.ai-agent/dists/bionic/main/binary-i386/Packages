@@ -1,13 +1,13 @@
 Package: backend.ai-agent
-Version: 18.12.0
+Version: 1.0.0
 Architecture: all
 Maintainer: Lablup Developers <sykang@lablup.com>
 Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
 Depends: python3 (>= 3.6~),
     python3-botocore (>= 1.12.49),
     python3-idna-ssl (>= 1.1.0),
-    python3-typing-extensions (>= 3.6.5),
-    python3-wrapt (>= 1.10.10),
+    python3-typing-extentions,
+    python3-wrapt,
     python3-yarl (>= 1.1.0),
     python3-dataclasses,
     python3-aiohttp (>= 3.4.0),
@@ -19,23 +19,23 @@ Depends: python3 (>= 3.6~),
     python3-attr (>= 18.0),
     python3-zmq (>= 17.1.0),
     python3-uvloop(>= 0.11.0),
+    python3-wrapt (>= 1.10.10),
     python3-trafaret (>= 1.0),
     python3-coloredlogs (>= 5.2),
     python3-snappy(>= 0.5.1), 
     python3-setproctitle (>= 1.1.10), 
     backend.ai-common(>= 18.12.0), 
-    python3-aiozmq (>= 0.7), 
+    python3-aiozmq, 
     python3-psutil(>= 5.4.0), 
     python3-requests, 
-    python3-requests-unixsocket,
-    python3-configargparse (>= 0.12)
+    python3-requests-unixsocket 
 Priority: optional
 Section: devel
-Filename: pool/main/b/backend.ai-agent/backend.ai-agent_18.12.0_all.deb
-Size: 60632
-SHA256: d36654b7d1a402500380adedf7dac65489bafdc3aab834cfa966a095272e72d4
-SHA1: 7660076ec9fd98f225e169729b998f83db4aa414
-MD5sum: 95197f56c5b01dfd08d3d82c5513a122
+Filename: pool/main/b/backend.ai-agent/backend.ai-agent_1.0.0_all.deb
+Size: 4180700
+SHA256: b6ad20be621734ff5ac4c152ef0912ffe5d3c240324332d0fb4d4bcf22779f38
+SHA1: 3aa1f6e685559d80fee2aff63acccf1ef2fb3a10
+MD5sum: 581bf3394cacb29f985ab085cfbce8b8
 Description: Backend.ai agent package
 
 Package: python3-aioredis
