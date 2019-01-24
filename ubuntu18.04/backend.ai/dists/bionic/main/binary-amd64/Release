@@ -1,0 +1,5 @@
+Component: main
+Origin: backend.ai
+Label: backend.ai
+Architecture: amd64
+Description: debian package repo

@@ -1,0 +1,37 @@
+Origin: backend.ai
+Label: backend.ai
+Codename: bionic
+Date: Thu, 24 Jan 2019 08:46:51 UTC
+Architectures: amd64 i386
+Components: main
+Description: debian package repo
+MD5Sum:
+ 4425a28fb0754c7738909256c82b04b8 35921 main/binary-amd64/Packages
+ 19e2f913fcc2b86c948d882138a51fa8 11289 main/binary-amd64/Packages.gz
+ e62041e01f6e87f8aacaf42c4c153c84 106 main/binary-amd64/Release
+ c77fce75711b908329b8a054fb90b85e 17745 main/binary-i386/Packages
+ de37557db894f71001a1f1f01a967507 5897 main/binary-i386/Packages.gz
+ 21578960af0c8ae0aec5dd7ad924dd1f 105 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ b8a291ee013ab77ab013e7b3a9f12c0f 107 main/source/Release
+SHA1:
+ 05b0170fad95e49cf3c9ab7ec27eb678166ae75f 35921 main/binary-amd64/Packages
+ a7624a73fd2d7e436a661d8a053eb6f1608b9a09 11289 main/binary-amd64/Packages.gz
+ ca0bd07e6fa0e8d17a857f62a620b07860f6b571 106 main/binary-amd64/Release
+ f113b1195b2c5e9241f6a1e9e70a991af5e17e86 17745 main/binary-i386/Packages
+ c686e0baf72bbfedd4efe54a6b07103f6a0ec226 5897 main/binary-i386/Packages.gz
+ 1167a1551967c8b133dba994db8829f89d90eb00 105 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 4e7ee6ea11eadef29383d5c18ba2358a78b7f0bf 107 main/source/Release
+SHA256:
+ e8a585816be5e87ae8a6ee74669f08764e80d8820ea8499873209a618da01471 35921 main/binary-amd64/Packages
+ 44f4b416072a8eb972685e3a669cf5014ba526d7a4899ad63c747abc1bb5ec43 11289 main/binary-amd64/Packages.gz
+ 788173cf48717d4da711666ac2b8983c6151a4a8314ab8f3701148cc1914308c 106 main/binary-amd64/Release
+ bcb9a6d10f87dba4f7d5f0e82af7aa3228f38ce2c0286a7a14b719fd3f52a803 17745 main/binary-i386/Packages
+ 2bc8721ec5595a0710df2d15c2669cdc133202237dbc548d4809e1183b3f4700 5897 main/binary-i386/Packages.gz
+ 0cf46e791d3a2d5e700522ff7a92c3b30789b9526aecbcf549efaee6432daf75 105 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ c7aac924069e16ec4450a6d6e643728ecf00c7228b5fdbb52e6d14a250966c76 107 main/source/Release
