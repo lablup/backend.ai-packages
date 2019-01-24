@@ -38,6 +38,37 @@ SHA1: af5d4fa8893c1e32477ddb0012e0f446f0391e36
 MD5sum: 29bdd2acc815aebbe9b90e2934021365
 Description: Backend.ai agent package
 
+Package: backend.ai-common
+Version: 18.12.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Depends: python3 (>= 3.6~), 
+    python3-zmq (>= 17.0), 
+    python3-etcd3 (>= 0.8.0), 
+    python3-aiodns,
+    python3-aiohttp (>= 3.4.0), 
+    python3-async-timeout (>= 3.0), 
+    python3-setproctitle (>= 1.1.10), 
+    python3-attr (>= 18.0),
+    python3-json-logger,
+    python3-async-timeout (>= 3.0),
+    python3-msgpack(>= 0.6.0),
+    python3-attr (>= 18.0),
+    python3-etcd3 (>= 0.8.0),
+    python3-grpcio ,
+    python3-tenacity,
+    python3-idna-ssl,
+    python3-typing-extensions (>= 3.6.5)
+Priority: optional
+Section: devel
+Filename: pool/main/b/backend.ai-common/backend.ai-common_18.12.0_all.deb
+Size: 16120
+SHA256: 735f458720f8b9c57210188abc0d81981cd445e28d488ad2f1d7d0c355b1df4c
+SHA1: 2411bd205afcea2f433521e7f3de695ff9560e22
+MD5sum: efe6a84c389c1d032f3502eb5ed28ffb
+Description: Backend.ai common package
+
 Package: python3-aiobotocore
 Source: python-aiobotocore
 Version: 0.10.0
