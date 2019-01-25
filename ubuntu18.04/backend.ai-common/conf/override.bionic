@@ -1,4 +1,5 @@
 python3-grpcio Priority optional
+python3-click Priority optional
 python3-idna-ssl Priority optional
 python3-tenacity Priority optional
 python3-typing-extensions Priority optional

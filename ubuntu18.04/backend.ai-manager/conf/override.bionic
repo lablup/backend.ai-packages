@@ -24,6 +24,7 @@ python3-graphql-core Priority optional
 python3-graphql-relay Priority optional
 python3-humanfriendly Priority optional
 python3-promise Priority optional
+python3-click Priority optional
 python3-psycopg2 Priority optional
 python3-tz Priority optional
 python3-rx Priority optional

@@ -7,6 +7,7 @@ Depends: python3 (>= 3.6~),
     python3-botocore (>= 1.12.49),
     python3-idna-ssl (>= 1.1.0),
     python3-wrapt,
+    python3-click(>=7.0),
     python3-yarl (>= 1.1.0),
     python3-dataclasses,
     python3-aiohttp (>= 3.4.0),
@@ -24,18 +25,18 @@ Depends: python3 (>= 3.6~),
     python3-snappy(>= 0.5.1), 
     python3-setproctitle (>= 1.1.10), 
     backend.ai-common(>= 18.12.0), 
-    python3-typing-extensions (>=3.6.5),
     python3-aiozmq, 
+    python3-typing-extentions (>= 3.6.5),
     python3-psutil(>= 5.4.0), 
     python3-requests, 
     python3-requests-unixsocket 
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_18.12.0_all.deb
-Size: 60616
-SHA256: 926a7bc505bd607e664e6de554e4ab81f82f72fa418fb3e49a5735d39f2d0e8e
-SHA1: cb49049b17b4ec4a3059e97ea166c092fa02047d
-MD5sum: dfead51df27d4d8366b031096fe69664
+Size: 60628
+SHA256: 623686ee6fcb6759545efea464f4388597652ad99f96cc6209dd2996511eeb09
+SHA1: 479c0242426ccc61e3aafaa647f6bcb014bd1263
+MD5sum: 3c7afb0e386a3569de795140fde6fdf6
 Description: Backend.ai agent package
 
 Package: backend.ai-common
@@ -237,6 +238,33 @@ SHA256: be94a28cc7ddfa063f55d761d62f3339c6584d32bcfd1f22189fea6a65ee7ce1
 SHA1: b65e43e8866d8f2df86ce2f7ddcadcb668051558
 MD5sum: 405193373e7da9e893739b86b32e30da
 Description: botocore
+
+Package: python3-click
+Source: python-click
+Version: 7.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
+Depends: python3:any (>= 3.3.2-2~), python3-colorama
+Homepage: https://salsa.debian.org/debian/python-click.git
+Priority: optional
+Section: python
+Filename: pool/main/p/python-click/python3-click_7.0_all.deb
+Size: 103348
+SHA256: 8980ff155128352e2e165dedfb537e720d265a21b9d8e5d619c1df79c6ceb25b
+SHA1: 00c9e2d2e10dc92e26f6a0408f7c27e05511ff1e
+MD5sum: 199a8ba2563ca7ebc530a248886ff4c3
+Description: Simple wrapper around optparse for powerful command line utilities - Python 3.x
+ Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary.  It's the "Command
+ Line Interface Creation Kit".  It's highly configurable but comes with
+ sensible defaults out of the box.
+ .
+ It aims to make the process of writing command line tools quick and fun
+ while also preventing any frustration caused by the inability to implement
+ an intended CLI API.
+ .
+ This is the Python 3 compatible package.
 
 Package: python3-configargparse
 Source: python-configargparse
