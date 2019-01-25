@@ -1,8 +1,0 @@
-Origin: backend.ai
-Label:  backend.ai
-Codename: bionic
-Architectures: amd64 source i386
-Components: main
-Description: debian package repo
-DebOverride: override.bionic
-SignWith: 47E40A78790F672C

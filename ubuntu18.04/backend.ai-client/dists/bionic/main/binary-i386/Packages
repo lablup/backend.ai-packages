@@ -190,9 +190,9 @@ Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
 Priority: optional
 Section: python
 Filename: pool/main/p/python3-typing-extensions/python3-typing-extensions_3.6.6_all.deb
-Size: 17696
-SHA256: d7a52c4370b857fa2f9e109fe28f980d91ad56d0d8cb78333860125c043fe37e
-SHA1: d7f67fc901de624166e79b441497e34bb211d74e
-MD5sum: 5c9399d9c6742fe8e7c76de5c4fcf7a6
+Size: 17352
+SHA256: e912d9a75a49e955388ba47d0a475948fee1c745bf0cdef918dd099872369a2e
+SHA1: 2b13542da52ab9f84385dd35c231b464a0d03efe
+MD5sum: 9b1717520aaf953042c4c28c5e77438f
 Description:  python3-typing-extensions
 
