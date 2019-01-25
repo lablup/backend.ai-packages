@@ -26,17 +26,17 @@ Depends: python3 (>= 3.6~),
     python3-setproctitle (>= 1.1.10), 
     backend.ai-common(>= 18.12.0), 
     python3-aiozmq, 
-    python3-typing-extentions (>= 3.6.5),
+    python3-typing-extensions (>= 3.6.5),
     python3-psutil(>= 5.4.0), 
     python3-requests, 
     python3-requests-unixsocket 
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_18.12.0_all.deb
-Size: 60628
-SHA256: 623686ee6fcb6759545efea464f4388597652ad99f96cc6209dd2996511eeb09
-SHA1: 479c0242426ccc61e3aafaa647f6bcb014bd1263
-MD5sum: 3c7afb0e386a3569de795140fde6fdf6
+Size: 4184456
+SHA256: 3a12c83af6d53d9c0086257d2701391b92f3833e6ec356ab937fa8a61680b20a
+SHA1: 29f9e738e73d18dba8da74b84108f46e5ca834ac
+MD5sum: 44c5c54d85ee29b418a59af9912b5c59
 Description: Backend.ai agent package
 
 Package: backend.ai-common
