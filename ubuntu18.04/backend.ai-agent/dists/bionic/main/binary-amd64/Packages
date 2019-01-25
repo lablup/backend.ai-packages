@@ -346,6 +346,30 @@ Description: idna-ssl
  The library was donated by `Ocean S.A. <https://ocean.io/>`_
  Thanks to the company for contribution.
 
+Package: python3-snappy
+Source: python-snappy
+Version: 0.5.3-1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Shell Xu <shell909090@gmail.com>
+Installed-Size: 87
+Depends: python3 (<< 3.8), python3 (>= 3.6~), python3:any, libc6 (>= 2.4), libsnappy1v5
+Homepage: http://github.com/andrix/python-snappy
+Priority: optional
+Section: python
+Filename: pool/main/p/python-snappy/python3-snappy_0.5.3-1_amd64.deb
+Size: 16844
+SHA256: f66873e5c81c4f9d299699b45bbf7c2e210f20155fbbf0defd03469498ba98a6
+SHA1: 8ab47e9686d47af53ed61c1f56167a48abcf709d
+MD5sum: 03bc22f18904ffc2891fc140460c9724
+Description: snappy compression library from Google - Python 3.x
+ Snappy is a compression/decompression library. It does not aim for
+ maximum compression, or compatibility with any other compression
+ library; instead, it aims for very high speeds and reasonable
+ compression. You can read package libsnappy1 for more information.
+ .
+ This package provides the Python 3.x module.
+
 Package: python3-trafaret
 Source: python-trafaret
 Version: 1.1
