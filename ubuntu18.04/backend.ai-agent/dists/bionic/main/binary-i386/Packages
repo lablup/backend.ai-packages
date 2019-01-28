@@ -13,6 +13,7 @@ Depends: python3 (>= 3.6~),
     python3-aiohttp (>= 3.4.0),
     python3-aiobotocore (>= 0.3.0),
     python3-aiodocker (>= 0.14.0),
+    python3-configargparse(>= 0.12),
     python3-aioredis (>= 1.0.0),
     python3-aiotools (>= 0.8.0),
     python3-async-timeout (>= 3.0),
@@ -33,10 +34,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_18.12.0_all.deb
-Size: 4184456
-SHA256: 3a12c83af6d53d9c0086257d2701391b92f3833e6ec356ab937fa8a61680b20a
-SHA1: 29f9e738e73d18dba8da74b84108f46e5ca834ac
-MD5sum: 44c5c54d85ee29b418a59af9912b5c59
+Size: 4179552
+SHA256: 1b814a8e360e0876c13834af34eb16fce9bf9e922d3083ad94abe0cce37992fe
+SHA1: 3c176d5ee4567f458463f074dbd069539e712d2d
+MD5sum: 57cd17d4d1cf804f6048d6b243a39962
 Description: Backend.ai agent package
 
 Package: backend.ai-common
