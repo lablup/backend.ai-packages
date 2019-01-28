@@ -1,5 +1,5 @@
 Package: backend.ai-common
-Version: 18.12.0
+Version: 19.3.0
 Architecture: all
 Maintainer: Lablup Developers <sykang@lablup.com>
 Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
@@ -22,11 +22,11 @@ Depends: python3 (>= 3.6~),
     python3-typing-extensions (>= 3.6.5)
 Priority: optional
 Section: devel
-Filename: pool/main/b/backend.ai-common/backend.ai-common_18.12.0_all.deb
-Size: 16120
-SHA256: 735f458720f8b9c57210188abc0d81981cd445e28d488ad2f1d7d0c355b1df4c
-SHA1: 2411bd205afcea2f433521e7f3de695ff9560e22
-MD5sum: efe6a84c389c1d032f3502eb5ed28ffb
+Filename: pool/main/b/backend.ai-common/backend.ai-common_19.3.0_all.deb
+Size: 15988
+SHA256: 96991ac430bdf6ef1a025ace275ce97fdb53f2894935456e538750d0a0fe0efc
+SHA1: b860481175c96ce14fd31c26dea0188621e100de
+MD5sum: 0b54a5110b6efbb56a3922e3fd90cc0f
 Description: Backend.ai common package
 
 Package: python3-async-timeout
