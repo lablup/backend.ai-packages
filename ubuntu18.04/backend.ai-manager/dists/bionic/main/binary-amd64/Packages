@@ -73,10 +73,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-manager/backend.ai-manager_19.3.0_all.deb
-Size: 45860
-SHA256: 4d1dd9ba95147288b22cdd7f0d8551e53627853a9bb2bd32efa4f8d219230cfe
-SHA1: f493b0e387bf1998bf8be313697cbb67adc64b9a
-MD5sum: 031e31bd3c3481527a9f3386bb5133b7
+Size: 53188
+SHA256: e07211770c36c97b79ca008ec92a8f8ef44e7d433c22347a5dc8d070aed0d177
+SHA1: 3390985a39fea12a1439daaf728f1e2acf47ba0d
+MD5sum: 9efab119ba7e4b9a4f953e2488351f4e
 Description: Backend.ai manager package
 
 Package: python3-aioconsole

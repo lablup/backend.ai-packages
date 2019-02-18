@@ -33,10 +33,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_19.3.0_all.deb
-Size: 4147344
-SHA256: f211779f5ede5f14328c76d6c90d7d2bd7a2de7f5c13ec43d59f35e6c70ae461
-SHA1: 167e1fd717fd56cf93f42779ad4cbd014cbd359a
-MD5sum: b4bf51c092ac9a2077449e44888c25ef
+Size: 4150416
+SHA256: 114657391a7443317ea73defca0d210f6dbdaa9f9b351df18bcc2b834247c6c5
+SHA1: 0ec7a57fdbd568626bbaf529d86ee04960c6f224
+MD5sum: 8a2439ffb9107a83976b0d19ac0d7d0b
 Description: Backend.ai agent package
 
 Package: backend.ai-common

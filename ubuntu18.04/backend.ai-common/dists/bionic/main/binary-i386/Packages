@@ -23,10 +23,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-common/backend.ai-common_19.3.0_all.deb
-Size: 15988
-SHA256: 96991ac430bdf6ef1a025ace275ce97fdb53f2894935456e538750d0a0fe0efc
-SHA1: b860481175c96ce14fd31c26dea0188621e100de
-MD5sum: 0b54a5110b6efbb56a3922e3fd90cc0f
+Size: 19612
+SHA256: 66d5df9db951d6e00ab59c453f17988bfeb4464bc600b4581d04d37558c753a9
+SHA1: 93018e569fe324e41341df97155869a85f65b44d
+MD5sum: b05db9187f73ad342c8ce82e635830f3
 Description: Backend.ai common package
 
 Package: python3-async-timeout
