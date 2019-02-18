@@ -22,6 +22,7 @@ show_info() {
   echo "${BLUE}[INFO]${NC} ${GREEN}$1${NC}"
 }
 
+sudo apt install -y curl
 sudo apt-get install -y libssl-dev libreadline-dev libgdbm-dev zlib1g-dev libbz2-dev libsqlite3-dev libffi-dev
 
 # Docker Compose
@@ -84,8 +85,8 @@ mkdir scratches
 
 # DB schema
 show_info "Setting up databases..."
-python -m ai.backend.manager.cli schema oneshot head
-python -m ai.backend.manager.cli --db-addr=localhost:8100 --db-user=postgres --db-password=develove --db-name=backend fixture populate ./sample-configs/example-keypairs.json
+python3 -m ai.backend.manager.cli schema oneshot head
+python3 -m ai.backend.manager.cli --db-addr=localhost:8100 --db-user=postgres --db-password=develove --db-name=backend fixture populate ./sample-configs/example-keypairs.json
 
 show_info "Pre-pulling frequently used kernel images..."
 echo "NOTE: Other images will be downloaded from the docker registry when requested.\n"
