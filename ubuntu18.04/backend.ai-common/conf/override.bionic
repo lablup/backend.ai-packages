@@ -8,6 +8,7 @@ python3-async-timeout Priority optional
 python3-attr Priority optional
 python3-etcd3 Priority optional
 python3-json-logger Priority optional
+python3-packing Priority optional
 python3-msgpack Priority optional
 python3-zmq Priority optional
 backend.ai-common Priority optional

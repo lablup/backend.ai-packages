@@ -7,7 +7,8 @@ Depends: python3 (>= 3.6~),
     python3-zmq (>= 17.0), 
     python3-etcd3 (>= 0.8.0), 
     python3-aiodns,
-    python3-aiohttp (>= 3.4.0), 
+    python3-aiohttp (>= 3.4.0),
+    python3-packing,
     python3-async-timeout (>= 3.0), 
     python3-setproctitle (>= 1.1.10), 
     python3-attr (>= 18.0),
@@ -24,9 +25,9 @@ Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-common/backend.ai-common_19.3.0_all.deb
 Size: 19612
-SHA256: 66d5df9db951d6e00ab59c453f17988bfeb4464bc600b4581d04d37558c753a9
-SHA1: 93018e569fe324e41341df97155869a85f65b44d
-MD5sum: b05db9187f73ad342c8ce82e635830f3
+SHA256: 3a35ca33949c8306d31f1ecb7fdd09588c69ec9aab201751a3fa83c9df500ae5
+SHA1: e61c408dae601d141fb54369393b4b05b3bce303
+MD5sum: bc1fa337fba20c1858989f3413feb25d
 Description: Backend.ai common package
 
 Package: python3-async-timeout
@@ -208,6 +209,21 @@ SHA256: f191da846a36778a943ed029fe9c686bb4cd1f821321531605b7af59449bcfd8
 SHA1: 86881c6dde47c932a07cc1890d8c9d9c2f906c01
 MD5sum: 132745b8ef2e35a881271a6ea953b41d
 Description: MessagePack (de)serializer.
+
+Package: python3-packing
+Source: python3-packing
+Version: 19.0
+Architecture: all
+Maintainer: Lablup Developers <sykang@lablup.com>
+Original-Maintainer: Lablup <sykang@lablup.com>
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-packing/python3-packing_19.0_all.deb
+Size: 16016
+SHA256: 4d1f5e17b5b4a64437144292c5705060185e46066520b35cb294347f4fc63f06
+SHA1: c88e5702fa5b9925a09644fbb296dc7e9c1c59a7
+MD5sum: 908be4d6a5f0631937ffef3c8e6401df
+Description: packing
 
 Package: python3-tenacity
 Source: python-tenacity
