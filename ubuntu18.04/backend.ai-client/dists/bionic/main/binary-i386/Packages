@@ -18,10 +18,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-client/backend.ai-client_18.12.0_all.deb
-Size: 36476
-SHA256: e5271e1df08a2cc1101aae468f9c35af13a20255634ff33fd4371f2ff96e2187
-SHA1: d529ac3f3b08f4575c568a2f85869e59e99b691f
-MD5sum: a43f9beaf205b95df0521f332acd9b3f
+Size: 36424
+SHA256: b30057993f2a77014f05c7be2fe4244bc0f50bb0bcc22cf67196e6f7a013e65a
+SHA1: db54c785ded998ccb88c4abcc002fe7c8e69e5a6
+MD5sum: 657f9de2c4ce3181101cf5e034a6e563
 Description: Backend.ai client package
 
 Package: python3-async-timeout
