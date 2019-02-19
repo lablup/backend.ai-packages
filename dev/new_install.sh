@@ -41,7 +41,7 @@ ENV_ID=$(LC_ALL=C tr -dc 'a-z0-9' < /dev/urandom | head -c 8)
 # Install Docker when it was not installed
 if ! type "docker" >/dev/null 2>&1; then
     sudo curl -fsSL https://get.docker.io | bash
-    sudo usermod -G docker $(whoami)
+    sudo usermod -aG docker $(whoami)
 fi
 
 # Install Docker-Compose when it was not installed
