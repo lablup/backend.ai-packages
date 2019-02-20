@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 RED="\033[0;91m"
@@ -16,13 +15,11 @@ LWHITE="\033[1;37m"
 LG="\033[0;37m"
 NC="\033[0m"
 
-INSTALL_PATH="/etc/lablup-util"
-
-set -e
+INSTALL_PATH="./"
 
 show_info() {
   echo " "
-  echo -e "${BLUE}[INFO]${NC} ${GREEN}$1${NC}"
+  echo "${BLUE}[INFO]${NC} ${GREEN}$1${NC}"
 }
 
 # Docker Compose
@@ -35,24 +32,20 @@ sudo chmod +x /usr/local/bin/docker-compose
 # NOTE: docker-compose enforces lower-cased project names
 ENV_ID=$(LC_ALL=C tr -dc 'a-z0-9' < /dev/urandom | head -c 8)
 
+
 # starting install backend.ai for development setting!! #
 
-cd /etc/lablup-util
+# Install Docker when it was not installed
+if ! type "docker" >/dev/null 2>&1; then
+    sudo curl -fsSL https://get.docker.io | bash
+    sudo usermod -aG docker $(whoami)
+fi
+
 # Install Docker-Compose when it was not installed
 if ! type "docker-compose" >/dev/null 2>&1; then
     show_info "Install docker-compose"
     install_docker-compose
 fi
-
-# Add PATH
-for PROFILE_FILE in "zshrc" "bashrc" "profile" "bash_profile"
-    do
-    if [ -e "${HOME}/.${PROFILE_FILE}" ]
-    then
-      echo "PATH=\$PATH:/etc/lablup-util/scripts" >> "${HOME}/.${PROFILE_FILE}"
-      source ${HOME}/.${PROFILE_FILE}
-    fi
-done
 
 # Install postgresql, etcd packages via docker
 show_info "Launching the docker-compose \"halfstack\"..."
@@ -77,30 +70,9 @@ show_info "Setting up databases..."
 python3 -m ai.backend.manager.cli schema oneshot head
 python3 -m ai.backend.manager.cli --db-addr=localhost:8100 --db-user=postgres --db-password=develove --db-name=backend fixture populate ./sample-configs/example-keypairs.json
 
+
 show_info "Installation finished."
 show_note "Default API keypair configuration for test / develop:"
 echo -e "> ${WHITE}export BACKEND_ENDPOINT=http://127.0.0.1:8081/${NC}"
 echo -e "> ${WHITE}export BACKEND_ACCESS_KEY=AKIAIOSFODNN7EXAMPLE${NC}"
 echo -e "> ${WHITE}export BACKEND_SECRET_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY${NC}"
-echo -e " "
-echo -e "Please add these environment variables to your shell configuration files."
-show_important_note "You should change your default admin API keypairs for production environment!"
-show_note "How to run Backend.AI manager:"
-echo -e "> ${WHITE}cd ${INSTALL_PATH}${NC}"
-echo -e "> ${WHITE}./scripts/run-with-halfstack.sh python3 -m ai.backend.gateway.server --service-port=8081 --debug${NC}"
-show_note "How to run Backend
-.AI agent:"
-echo -e "> ${WHITE} run-with-halfstack.sh python3 -m ai.backend.agent.server --scratch-root=\${INSTALL_PATH}/scratches --debug --idle-timeout 30${NC}"
-show_note "How to run your first code:"
-echo -e "> ${WHITE}cd ${INSTALL_PATH}/client-py${NC}"
-echo -e "> ${WHITE}backend.ai --help${NC}"
-echo -e "> ${WHITE}backend.ai run python -c \"print('Hello World!')\"${NC}"
-echo " "
-echo -e "${GREEN}Development environment is now ready.${NC}"
-show_note "Your environment ID is ${YELLOW}${ENV_ID}${NC}."
-echo -e "  * When using docker-compose, do:"
-echo -e "    > ${WHITE}cd ${INSTALL_PATH}${NC}"
-echo -e "    > ${WHITE}docker-compose -p ${ENV_ID} -f docker-compose.halfstack.yml ...${NC}"
-echo "  * To delete this development environment, run:"
-echo -e "    > ${WHITE}sudo apt autoremove backend.ai-dev ${NC}"
-
