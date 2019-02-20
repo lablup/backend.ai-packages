@@ -9,6 +9,7 @@ add_client_apt='deb file:///app/backend.ai/ubuntu18.04/backend.ai-client bionic 
 add_common_apt='deb file:///app/backend.ai/ubuntu18.04/backend.ai-common bionic main'
 add_manager_apt='deb file:///app/backend.ai/ubuntu18.04/backend.ai-manager bionic main'
 add_agent_apt='deb file:///app/backend.ai/ubuntu18.04/backend.ai-agent bionic main'
+add_dev_apt='deb file:///app/backend.ai/ubuntu18.04/backend.ai-dev bionic main'
 
 apt_sources_path='/etc/apt/sources.list'
 
@@ -28,6 +29,10 @@ fi
 
 if [[ $apt_sources_list != *"$add_agent_apt"* ]]; then
     sudo echo "$add_agent_apt" >> $apt_sources_path
+fi
+
+if [[ $apt_sources_list != *"$add_dev_apt"* ]]; then
+    sudo echo "$add_dev_apt" >> $apt_sources_path
 fi
 
 sudo apt update
