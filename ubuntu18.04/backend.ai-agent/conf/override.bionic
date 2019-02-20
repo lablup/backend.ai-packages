@@ -16,5 +16,4 @@ python3-dataclasses Priority optional
 python3-trafaret Priority optional
 python3-uvloop Priority optional
 python3-zmq Priority optional
-backend.ai-common Priority optional
 backend.ai-agent Priority optional

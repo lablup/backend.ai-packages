@@ -4,6 +4,16 @@ Architecture: all
 Maintainer: Lablup Developers <sykang@lablup.com>
 Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
 Depends: python3 (>= 3.6~), 
+    libssl-dev,
+    libreadline-dev,
+    libgdbm-dev,
+    zlib1g-dev,
+    libbz2-dev,
+    libsqlite3-dev,
+    libffi-dev,
+    libsnappy-dev,
+    libsnappy-devel,
+    snappy,
     python3-zmq (>= 17.0), 
     python3-etcd3 (>= 0.8.0), 
     python3-aiodns,
@@ -24,10 +34,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-common/backend.ai-common_19.3.0_all.deb
-Size: 19612
-SHA256: 3a35ca33949c8306d31f1ecb7fdd09588c69ec9aab201751a3fa83c9df500ae5
-SHA1: e61c408dae601d141fb54369393b4b05b3bce303
-MD5sum: bc1fa337fba20c1858989f3413feb25d
+Size: 19680
+SHA256: 91ee58df3e3a675813ecc5bb9a60f344c68aca73f93f5a08ff6b996b9a5d8c5c
+SHA1: bad37d181251c7461a4a2ab4cad918710892b82f
+MD5sum: f3f4f87576e80f3fa7ccd297cd5c7a00
 Description: Backend.ai common package
 
 Package: python3-async-timeout

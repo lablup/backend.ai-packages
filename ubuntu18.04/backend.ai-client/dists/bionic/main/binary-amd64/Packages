@@ -4,6 +4,16 @@ Architecture: all
 Maintainer: Lablup Developers <sykang@lablup.com>
 Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
 Depends: python3 (>= 3.6~),
+    libssl-dev,
+    libreadline-dev,
+    libgdbm-dev,
+    zlib1g-dev,
+    libbz2-dev,
+    libsqlite3-dev,
+    libffi-dev,
+    libsnappy-dev,
+    libsnappy-devel,
+    snappy,
     python3-dateutil (>= 2.5),
     python3-humanize (>= 0.5.1),
     python3-tabulate (>= 0.7.7),
@@ -18,10 +28,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-client/backend.ai-client_18.12.0_all.deb
-Size: 36424
-SHA256: b30057993f2a77014f05c7be2fe4244bc0f50bb0bcc22cf67196e6f7a013e65a
-SHA1: db54c785ded998ccb88c4abcc002fe7c8e69e5a6
-MD5sum: 657f9de2c4ce3181101cf5e034a6e563
+Size: 36492
+SHA256: dd4a7834ed2f30b727dba401792b5c188fbe26fbceef98d1aaec55139d633423
+SHA1: 68cf21dfeebcbefeca3387b6c98f8fdf165f776c
+MD5sum: 5f2ef862d139e131060c8bcf0f440cf7
 Description: Backend.ai client package
 
 Package: python3-aiohttp

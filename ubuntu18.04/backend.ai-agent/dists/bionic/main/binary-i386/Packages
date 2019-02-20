@@ -33,42 +33,11 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-agent/backend.ai-agent_19.3.0_all.deb
-Size: 4150416
-SHA256: 114657391a7443317ea73defca0d210f6dbdaa9f9b351df18bcc2b834247c6c5
-SHA1: 0ec7a57fdbd568626bbaf529d86ee04960c6f224
-MD5sum: 8a2439ffb9107a83976b0d19ac0d7d0b
+Size: 186681380
+SHA256: 4a8fe5752da5a48e94295e86cb7c50c00b2b8aa1ca82c3c3218bb8010f9cc2c7
+SHA1: 0264b800cac79d354e21efb7fe75e9a7959d2b4e
+MD5sum: dc2f80eb00a44957ad44858ea0de84a3
 Description: Backend.ai agent package
-
-Package: backend.ai-common
-Version: 18.12.0
-Architecture: all
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
-Depends: python3 (>= 3.6~), 
-    python3-zmq (>= 17.0), 
-    python3-etcd3 (>= 0.8.0), 
-    python3-aiodns,
-    python3-aiohttp (>= 3.4.0), 
-    python3-async-timeout (>= 3.0), 
-    python3-setproctitle (>= 1.1.10), 
-    python3-attr (>= 18.0),
-    python3-json-logger,
-    python3-async-timeout (>= 3.0),
-    python3-msgpack(>= 0.6.0),
-    python3-attr (>= 18.0),
-    python3-etcd3 (>= 0.8.0),
-    python3-grpcio ,
-    python3-tenacity,
-    python3-idna-ssl,
-    python3-typing-extensions (>= 3.6.5)
-Priority: optional
-Section: devel
-Filename: pool/main/b/backend.ai-common/backend.ai-common_18.12.0_all.deb
-Size: 16120
-SHA256: 735f458720f8b9c57210188abc0d81981cd445e28d488ad2f1d7d0c355b1df4c
-SHA1: 2411bd205afcea2f433521e7f3de695ff9560e22
-MD5sum: efe6a84c389c1d032f3502eb5ed28ffb
-Description: Backend.ai common package
 
 Package: python3-aioredis
 Source: aioredis

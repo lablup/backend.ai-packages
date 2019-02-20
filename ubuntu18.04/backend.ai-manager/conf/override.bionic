@@ -31,5 +31,4 @@ python3-rx Priority optional
 python3-snappy Priority optional
 python3-uvloop Priority optional
 python3-zmq Priority optional
-backend.ai-common Priority optional
 backend.ai-manager Priority optional

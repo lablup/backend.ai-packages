@@ -1,34 +1,3 @@
-Package: backend.ai-common
-Version: 18.12.0
-Architecture: all
-Maintainer: Lablup Developers <sykang@lablup.com>
-Original-Maintainer: Seongyoung Kang <sykang@lablup.com>
-Depends: python3 (>= 3.6~), 
-    python3-zmq (>= 17.0), 
-    python3-etcd3 (>= 0.8.0), 
-    python3-aiodns,
-    python3-aiohttp (>= 3.4.0), 
-    python3-async-timeout (>= 3.0), 
-    python3-setproctitle (>= 1.1.10), 
-    python3-attr (>= 18.0),
-    python3-json-logger,
-    python3-async-timeout (>= 3.0),
-    python3-msgpack(>= 0.6.0),
-    python3-attr (>= 18.0),
-    python3-etcd3 (>= 0.8.0),
-    python3-grpcio ,
-    python3-tenacity,
-    python3-idna-ssl,
-    python3-typing-extensions (>= 3.6.5)
-Priority: optional
-Section: devel
-Filename: pool/main/b/backend.ai-common/backend.ai-common_18.12.0_all.deb
-Size: 16120
-SHA256: 735f458720f8b9c57210188abc0d81981cd445e28d488ad2f1d7d0c355b1df4c
-SHA1: 2411bd205afcea2f433521e7f3de695ff9560e22
-MD5sum: efe6a84c389c1d032f3502eb5ed28ffb
-Description: Backend.ai common package
-
 Package: backend.ai-manager
 Version: 19.3.0
 Architecture: all
@@ -73,10 +42,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-manager/backend.ai-manager_19.3.0_all.deb
-Size: 53188
-SHA256: e07211770c36c97b79ca008ec92a8f8ef44e7d433c22347a5dc8d070aed0d177
-SHA1: 3390985a39fea12a1439daaf728f1e2acf47ba0d
-MD5sum: 9efab119ba7e4b9a4f953e2488351f4e
+Size: 53156
+SHA256: 4a6294e6926ceaa64dd66314a0c0fd7ccd3f018690925695c0fd1a9d13c6ceda
+SHA1: b7cc0fefe051d3da6a835293fbaae44a45114883
+MD5sum: e6a82edcc756ee798ed6c90afb584dc6
 Description: Backend.ai manager package
 
 Package: python3-aiohttp-cors
