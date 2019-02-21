@@ -11,7 +11,7 @@ $ sudo git clone https://github.com/lablup/backend.ai-packages.git /app/backend.
 2) If git-lfs does not exist, install git-lfs. ( You can use ./git-lfs_install.sh for install git-lfs !!)  
 ````  
 $ cd /app/backend.ai  
-$ sudo ./setup.sh  
+$ sudo ./git-lfs_install.sh
 ````  
 
 3) Add gpg key and Add apt-source-list ( You can use ./setup.sh for setup !!)  
