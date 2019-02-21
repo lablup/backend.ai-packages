@@ -38,4 +38,12 @@ if ! type "docker" >/dev/null 2>&1; then
     sudo usermod -aG docker $(whoami)
 fi
 
+for PROFILE_FILE in "zshrc" "bashrc" "profile" "bash_profile"
+    do
+    if [ -e "${HOME}/.${PROFILE_FILE}" ]
+    then
+      echo "PATH=\$PATH:/app/backend.ai/dev/utils" >> "${HOME}/.${PROFILE_FILE}"
+    fi
+done
+
 sudo apt update
