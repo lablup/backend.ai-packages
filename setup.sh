@@ -30,6 +30,9 @@ if [[ $apt_sources_list != *"$add_agent_apt"* ]]; then
     sudo echo "$add_agent_apt" >> $apt_sources_path
 fi
 
+if ! type "curl" >/dev/null 2>&1; then
+    sudo apt install curl
+fi
 if ! type "docker" >/dev/null 2>&1; then
     sudo curl -fsSL https://get.docker.io | bash
     sudo usermod -aG docker $(whoami)
