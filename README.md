@@ -14,12 +14,18 @@ $ cd /app/backend.ai
 $ sudo ./git-lfs_install.sh
 ````  
 
-3) Add gpg key and Add apt-source-list ( You can use ./setup.sh for setup !!)  
+3) If you want to install backend.AI for agent, you should use git-lfs for download docker images   
+````  
+$ sudo git lfs install  
+$ sudo git lfs pull  
+````  
+
+4) Add gpg key and Add apt-source-list ( You can use ./setup.sh for setup !!)  
 ````  
 $ sudo ./setup.sh  
 ````  
 
-4) Install Backend.AI moduls which you want to use  
+5) Install Backend.AI moduls which you want to use  
 ````  
 $ sudo apt install backend.ai-client  
 $ sudo apt install backend.ai-manager  
