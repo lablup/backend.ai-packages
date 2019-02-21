@@ -54,15 +54,15 @@ sudo docker ps | grep "${ENV_ID}"   # You should see three containers here.
 
 # Docker registry setup
 show_info "Configuring the Lablup's official Docker registry..."
-./scripts/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd put config/docker/registry/index.docker.io "https://registry-1.docker.io"
-./scripts/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd put config/docker/registry/index.docker.io/username "lablup"
-./scripts/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd rescan-images
+./utils/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd put config/docker/registry/index.docker.io "https://registry-1.docker.io"
+./utils/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd put config/docker/registry/index.docker.io/username "lablup"
+./utils/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd rescan-images
 
 # Virtual folder setup
 show_info "Setting up virtual folder..."
 mkdir -p "${INSTALL_PATH}/vfolder/local"
-./scripts/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd put volumes/_mount "${INSTALL_PATH}/vfolder"
-./scripts/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd put volumes/_default_host "local"
+./utils/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd put volumes/_mount "${INSTALL_PATH}/vfolder"
+./utils/run-with-halfstack.sh python3 -m ai.backend.manager.cli etcd put volumes/_default_host "local"
 mkdir scratches
 
 # DB schema
