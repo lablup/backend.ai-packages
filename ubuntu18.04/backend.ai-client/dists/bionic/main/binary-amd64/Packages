@@ -26,10 +26,10 @@ Depends: python3 (>= 3.6~),
 Priority: optional
 Section: devel
 Filename: pool/main/b/backend.ai-client/backend.ai-client_18.12.0_all.deb
-Size: 36476
-SHA256: 72f51d2436ca2eb72a4d851d92d68d78f7125744cf4ebd5dd97bcf3665da2c9b
-SHA1: d37dfa640d755049c9bf75480906ca158f4da471
-MD5sum: 8bef9c4c6e10829e65b887c7ead94d6d
+Size: 37188
+SHA256: a31e3d73bca91da6fd54713596da28b12da1944596412dd36b601b514f188747
+SHA1: 7aa4cf05adea54f19dbcccfaa8a3434b8a451076
+MD5sum: f1a8360b1a1097eed8dac49c11f0d2ee
 Description: Backend.ai client package
 
 Package: python3-aiohttp
